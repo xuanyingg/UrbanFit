@@ -1,0 +1,1 @@
+Utilisation of R-Shiny package to create a website that consolidates essential gym-related information. UrbanFit is the ultimate tool for Gym-goers seeking personalised fitness experiences and Entrepreneurs looking to optimise their business strategies in the thriving fitness industry.
