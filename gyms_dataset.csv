@@ -1,0 +1,691 @@
+"Gym_Name","Regular_Adult_Fees","Offpeak_Adult_Fees","Per_Entry","Opening_Hours","Offpeak_Hours","Misc_Fees","Locations","Cleaned_Address","Region","lat","long","Barre","Boxing","Cycling","Dance","Gym.Time","Martial.Arts","Pilates","Strength.Training","Stretching","Yoga","Student_price","Adult_price","Senior_price","Nearest_MRT_Station","Nearest_Bus_Stop","Distance_from_MRT_km","Distance_from_busstop_km"
+"ActiveSG Gym","$25 - $30","$6.67 - $15","$2.50 (Adults)
+$1.50 (Student/Senior Citizen)
+$3.30 (Foreigners)","Mon to Sun
+- 7am to 10pm","Mon to Fri only
+- 7am to 4pm","-","Woodlands","Woodlands, Singapore","Woodlands",1.43594395,103.7878995,0,0,1,0,1,0,1,1,0,1,18,30,18,"Woodlands MRT","Opp Blk 892C CP",0.188507817723881,0.159854153185605
+"ActiveSG Gym","$25 - $30","$6.67 - $15","$2.50 (Adults)
+$1.50 (Student/Senior Citizen)
+$3.30 (Foreigners)","Mon to Sun
+- 7am to 10pm","Mon to Fri only
+- 7am to 4pm","-","Yio Chu Kang","Yio Chu Kang, Singapore","Ang Mo Kio",1.3817905,103.8449359,0,0,1,0,1,0,1,1,0,1,18,30,18,"Yio Chu Kang MRT","Yio Chu Kang Int",0.00647941299327631,0.103558011025927
+"ActiveSG Gym","$25 - $30","$6.67 - $15","$2.50 (Adults)
+$1.50 (Student/Senior Citizen)
+$3.30 (Foreigners)","Mon to Sun
+- 7am to 10pm","Mon to Fri only
+- 7am to 4pm","-","Yishun","Yishun, Singapore","Yishun",1.4293839,103.8350282,0,0,1,0,1,0,1,1,0,1,18,30,18,"Yishun MRT","Yishun Stn",0.00660077689328852,0.0220577854788998
+"ActiveSG Gym","$25 - $30","$6.67 - $15","$2.50 (Adults)
+$1.50 (Student/Senior Citizen)
+$3.30 (Foreigners)","Mon to Sun
+- 7am to 10pm","Mon to Fri only
+- 7am to 4pm","-","Kallang Basin","Kallang Basin, Singapore","Kallang",1.3001268,103.8720973,0,0,1,0,1,0,1,1,0,1,18,30,18,"Stadium MRT","Pebble Bay",0.471277533951735,0.342211973112934
+"ActiveSG Gym","$25 - $30","$6.67 - $15","$2.50 (Adults)
+$1.50 (Student/Senior Citizen)
+$3.30 (Foreigners)","Mon to Sun
+- 7am to 10pm","Mon to Fri only
+- 7am to 4pm","-","Toa Payoh","Toa Payoh, Singapore","Toa Payoh",1.3353906,103.8497414,0,0,1,0,1,0,1,1,0,1,18,30,18,"Toa Payoh MRT","Opp Blk 177",0.39291737381523,0.158031741245129
+"ActiveSG Gym","$25 - $30","$6.67 - $15","$2.50 (Adults)
+$1.50 (Student/Senior Citizen)
+$3.30 (Foreigners)","Mon to Sun
+- 7am to 10pm","Mon to Fri only
+- 7am to 4pm","-","Tiong Bahru, Singapore","Tiong Bahru, Singapore","Bukit Merah",1.28617925,103.8272252,0,0,1,0,1,0,1,1,0,1,18,30,18,"Tiong Bahru MRT","Tiong Bahru Plaza",0.0201595626921886,0.0373963984093244
+"ActiveSG Gym","$25 - $30","$6.67 - $15","$2.50 (Adults)
+$1.50 (Student/Senior Citizen)
+$3.30 (Foreigners)","Mon to Sun
+- 7am to 10pm","Mon to Fri only
+- 7am to 4pm","-","Jalan Besar","Jalan Besar, Singapore","Rochor",1.3052419,103.8552882,0,0,1,0,1,0,1,1,0,1,18,30,18,"Jalan Besar MRT","JLN BESAR STN EXIT A",0.0266811088442695,0.107411518223798
+"ActiveSG Gym","$25 - $30","$6.67 - $15","$2.50 (Adults)
+$1.50 (Student/Senior Citizen)
+$3.30 (Foreigners)","Mon to Sun
+- 7am to 10pm","Mon to Fri only
+- 7am to 4pm","-","Enabling Village","Enabling Village, Singapore","Bukit Merah",1.2871586,103.8141009,0,0,1,0,1,0,1,1,0,1,18,30,18,"Redhill MRT","Opp Blk 55",0.403745622777305,0.0143378093752849
+"ActiveSG Gym","$25 - $30","$6.67 - $15","$2.50 (Adults)
+$1.50 (Student/Senior Citizen)
+$3.30 (Foreigners)","Mon to Sun
+- 7am to 10pm","Mon to Fri only
+- 7am to 4pm","-","Toa Payoh West Community Centre","Toa Payoh West , Singapore","Toa Payoh",1.3353187,103.8424925,0,0,1,0,1,0,1,1,0,1,18,30,18,"Caldecott MRT","Philips S'pore",0.421922656880168,0.129950604153228
+"ActiveSG Gym","$25 - $30","$6.67 - $15","$2.50 (Adults)
+$1.50 (Student/Senior Citizen)
+$3.30 (Foreigners)","Mon to Sun
+- 7am to 10pm","Mon to Fri only
+- 7am to 4pm","-","Clementi","Clementi, Singapore","Clementi",1.3151003,103.7652311,0,0,1,0,1,0,1,1,0,1,18,30,18,"Clementi MRT","Clementi Stn",0.0195819300821531,0.0235631622553697
+"ActiveSG Gym","$25 - $30","$6.67 - $15","$2.50 (Adults)
+$1.50 (Student/Senior Citizen)
+$3.30 (Foreigners)","Mon to Sun
+- 7am to 10pm","Mon to Fri only
+- 7am to 4pm","-","Katong","Katong, Singapore","Marine Parade",1.3057886,103.8976313,0,0,1,0,1,0,1,1,0,1,18,30,18,"Dakota MRT","Bef Katong PO",1.03570478011021,0.187684569914863
+"ActiveSG Gym","$25 - $30","$6.67 - $15","$2.50 (Adults)
+$1.50 (Student/Senior Citizen)
+$3.30 (Foreigners)","Mon to Sun
+- 7am to 10pm","Mon to Fri only
+- 7am to 4pm","-","Pasir Ris","Pasir Ris, Singapore","Pasir Ris",1.3730307,103.949255,0,0,1,0,1,0,1,1,0,1,18,30,18,"Pasir Ris MRT","Pasir Ris Int",0.00634247376787006,0.0813901054396207
+"ActiveSG Gym","$25 - $30","$6.67 - $15","$2.50 (Adults)
+$1.50 (Student/Senior Citizen)
+$3.30 (Foreigners)","Mon to Sun
+- 7am to 10pm","Mon to Fri only
+- 7am to 4pm","-","Tampines","Tampines, Singapore","Tampines",1.3546528,103.9435712,0,0,1,0,1,0,1,1,0,1,18,30,18,"Tampines MRT","Tampines Int",0.228788988319209,0.0684019798254629
+"ActiveSG Gym","$25 - $30","$6.67 - $15","$2.50 (Adults)
+$1.50 (Student/Senior Citizen)
+$3.30 (Foreigners)","Mon to Sun
+- 7am to 10pm","Mon to Fri only
+- 7am to 4pm","-","Heartbeat @ Bedok","Heartbeat, Singapore","Bedok",1.3268695,103.9320742,0,0,1,0,1,0,1,1,0,1,18,30,18,"Bedok MRT","Bedok Ctrl PO",0.398571493450077,0.23931222757507
+"ActiveSG Gym","$25 - $30","$6.67 - $15","$2.50 (Adults)
+$1.50 (Student/Senior Citizen)
+$3.30 (Foreigners)","Mon to Sun
+- 7am to 10pm","Mon to Fri only
+- 7am to 4pm","-","ActiveSG Hockey Village @ Boon Lay Gym"," Hockey Village, Singapore","Jurong West",1.3477783,103.7112244,0,0,1,0,1,0,1,1,0,1,18,30,18,"Lakeside MRT","Blk 185",1.15352667559079,0.0793585262023028
+"ActiveSG Gym","$25 - $30","$6.67 - $15","$2.50 (Adults)
+$1.50 (Student/Senior Citizen)
+$3.30 (Foreigners)","Mon to Sun
+- 7am to 10pm","Mon to Fri only
+- 7am to 4pm","-","Bukit Batok","Bukit Batok, Singapore","Bukit Batok",1.3490572,103.7495906,0,0,1,0,1,0,1,1,0,1,18,30,18,"Bukit Batok MRT","Bt Batok Int",0.00449163661139708,0.193100979972079
+"ActiveSG Gym","$25 - $30","$6.67 - $15","$2.50 (Adults)
+$1.50 (Student/Senior Citizen)
+$3.30 (Foreigners)","Mon to Sun
+- 7am to 10pm","Mon to Fri only
+- 7am to 4pm","-","Bukit Gombak","Bukit Gombak, Singapore","Bukit Batok",1.3588929,103.7518249,0,0,1,0,1,0,1,1,0,1,18,30,18,"Bukit Gombak MRT","Bt Gombak Stn",0.0179276716378949,0.0287964723415981
+"ActiveSG Gym","$25 - $30","$6.67 - $15","$2.50 (Adults)
+$1.50 (Student/Senior Citizen)
+$3.30 (Foreigners)","Mon to Sun
+- 7am to 10pm","Mon to Fri only
+- 7am to 4pm","-","Choa Chu Kang","Choa Chu Kang, Singapore","Choa Chu Kang",1.3853167,103.744325,0,0,1,0,1,0,1,1,0,1,18,30,18,"Choa Chu Kang MRT","Choa Chu Kang Int",0.00674660291388663,0.0326489273795382
+"ActiveSG Gym","$25 - $30","$6.67 - $15","$2.50 (Adults)
+$1.50 (Student/Senior Citizen)
+$3.30 (Foreigners)","Mon to Sun
+- 7am to 10pm","Mon to Fri only
+- 7am to 4pm","-","Senja-Cashew","Senja, Singapore","Bukit Panjang",1.3826778,103.7623822,0,0,1,0,1,0,1,1,0,1,18,30,18,"Senja Lrt","Blk 541A CP",0.00397939307204845,0.0921463530489166
+"ActiveSG Gym","$25 - $30","$6.67 - $15","$2.50 (Adults)
+$1.50 (Student/Senior Citizen)
+$3.30 (Foreigners)","Mon to Sun
+- 7am to 10pm","Mon to Fri only
+- 7am to 4pm","-","Jurong East","Jurong East, Singapore","Jurong East",1.333108,103.7422939,0,0,1,0,1,0,1,1,0,1,18,30,18,"Jurong East MRT","Jurong East Temp Int",0.00518789525207456,0.0910473127795684
+"ActiveSG Gym","$25 - $30","$6.67 - $15","$2.50 (Adults)
+$1.50 (Student/Senior Citizen)
+$3.30 (Foreigners)","Mon to Sun
+- 7am to 10pm","Mon to Fri only
+- 7am to 4pm","-","Jurong Lake Gardens","Jurong Lake Gardens, Singapore","Jurong East",1.3437351,103.7268748,0,0,1,0,1,0,1,1,0,1,18,30,18,"Chinese Garden MRT","Jurong Lake",0.652387451578512,0.0824627331518204
+"ActiveSG Gym","$25 - $30","$6.67 - $15","$2.50 (Adults)
+$1.50 (Student/Senior Citizen)
+$3.30 (Foreigners)","Mon to Sun
+- 7am to 10pm","Mon to Fri only
+- 7am to 4pm","-","Jurong West","Jurong West, Singapore","Jurong West",1.3434392,103.7058663,0,0,1,0,1,0,1,1,0,1,18,30,18,"Boon Lay MRT","Blk 683A",0.53853539083826,0.11203001140785
+"ActiveSG Gym","$25 - $30","$6.67 - $15","$2.50 (Adults)
+$1.50 (Student/Senior Citizen)
+$3.30 (Foreigners)","Mon to Sun
+- 7am to 10pm","Mon to Fri only
+- 7am to 4pm","-","Ang Mo Kio Community Centre","Ang Mo Kio , Singapore","Ang Mo Kio",1.369842,103.8466086,0,0,1,0,1,0,1,1,0,1,18,30,18,"Ang Mo Kio MRT","Blk 700B",0.374986875823845,0.0913085777740223
+"ActiveSG Gym","$25 - $30","$6.67 - $15","$2.50 (Adults)
+$1.50 (Student/Senior Citizen)
+$3.30 (Foreigners)","Mon to Sun
+- 7am to 10pm","Mon to Fri only
+- 7am to 4pm","-","Fernvale Square","Fernvale , Singapore","Sengkang",1.39194505,103.8762535,0,0,1,0,1,0,1,1,0,1,18,30,18,"Fernvale Lrt","Opp Fernvale Stn",0.00664976340931487,0.136379624902942
+"ActiveSG Gym","$25 - $30","$6.67 - $15","$2.50 (Adults)
+$1.50 (Student/Senior Citizen)
+$3.30 (Foreigners)","Mon to Sun
+- 7am to 10pm","Mon to Fri only
+- 7am to 4pm","-","Serangoon Central","Serangoon , Singapore","Serangoon",1.34976105,103.8736841,0,0,1,0,1,0,1,1,0,1,18,30,18,"Serangoon MRT","S'Goon Stn Exit A/Blk 413",0.0151316086730538,0.0857478188940458
+"ActiveSG Gym","$25 - $30","$6.67 - $15","$2.50 (Adults)
+$1.50 (Student/Senior Citizen)
+$3.30 (Foreigners)","Mon to Sun
+- 7am to 10pm","Mon to Fri only
+- 7am to 4pm","-","Bishan","Bishan, Singapore","Bishan",1.3509859,103.8482551,0,0,1,0,1,0,1,1,0,1,18,30,18,"Bishan MRT","BISHAN STN",0.0238613973619713,0.0372349948355843
+"ActiveSG Gym","$25 - $30","$6.67 - $15","$2.50 (Adults)
+$1.50 (Student/Senior Citizen)
+$3.30 (Foreigners)","Mon to Sun
+- 7am to 10pm","Mon to Fri only
+- 7am to 4pm","-","Hougang","Hougang, Singapore","Hougang",1.3733601,103.8860907,0,0,1,0,1,0,1,1,0,1,18,30,18,"Hougang MRT","Bef Blk 683",0.735869080937928,0.0563320559562386
+"ActiveSG Gym","$25 - $30","$6.67 - $15","$2.50 (Adults)
+$1.50 (Student/Senior Citizen)
+$3.30 (Foreigners)","Mon to Sun
+- 7am to 10pm","Mon to Fri only
+- 7am to 4pm","-","Sengkang","Sengkang, Singapore","Sengkang",1.3909487,103.8951748,0,0,1,0,1,0,1,1,0,1,18,30,18,"Sengkang Lrt","Sengkang Int",0.078311700176722,0.119685790928325
+"Sports Hub Gym","$65 - $80","-","Day Pass Rates:
+$8 (Local resident)
+$10 (Standard)
+Individuals aged 55 and above, and individuals with special needs:
+$6 (Local resident)
+$8 (Standard)","7am to 10pm, daily","","Annual administration fee","Singapore Sports Hub","Singapore Sports Hub","Kallang",1.3032958,103.8753002,0,0,1,0,1,0,0,1,0,1,65,65,65,"Stadium MRT","Opp S'pore Indoor Stadium",0.0510001825913865,0.188163646618209
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","131 Bukit Merah","131 Bukit Merah, Singapore","Bukit Merah",1.28044745,103.8281665,0,0,1,0,1,0,0,1,0,1,69,69,69,"Tiong Bahru MRT","Blk 201",0.653039216420301,0.123957950244266
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","221 Jurong East St 21","221 Jurong East St 21, Singapore","Jurong East",1.3407916,103.7369572,0,0,1,0,1,0,0,1,0,1,69,69,69,"Chinese Garden MRT","Bef Yuhua CC",0.519925774956366,0.101160565649374
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","315 Serangoon Avenue 2","315 Serangoon Avenue 2, Singapore","Serangoon",1.35298295,103.8660181,0,0,1,0,1,0,0,1,0,1,69,69,69,"Lorong Chuan MRT","Cardiff Residence",0.256097810432556,0.188828111236022
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","431 Clementi Ave 3","431 Clementi Ave 3, Singapore","Clementi",1.3135158,103.7632041,0,0,1,0,1,0,0,1,0,1,69,69,69,"Clementi MRT","Clementi Int",0.283202921704839,0.186573176372029
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","462 Crawford Lane","462 Crawford Lane, Singapore","Kallang",1.3045344,103.8608683,0,0,1,0,1,0,0,1,0,1,69,69,69,"Lavender MRT","Blk 461",0.380597954962399,0.0839740485294431
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","515 Bedok North Ave 2","515 Bedok North Ave 2, Singapore","Bedok",1.33172165,103.9300043,0,0,1,0,1,0,0,1,0,1,69,69,69,"Bedok Reservoir MRT","Blk 515",0.598047515602646,0.0583025042586259
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","64 Boat Quay","64 Boat Quay, Singapore","Singapore River",1.2876453,103.8492854,0,0,1,0,1,0,0,1,0,1,69,69,69,"Clarke Quay MRT","Boat Quay",0.316413511695154,0.116166367751726
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","64 Boat Quay (Grit Pod)","64 Boat Quay, Singapore","Singapore River",1.2876453,103.8492854,0,0,1,0,1,0,0,1,0,1,69,69,69,"Clarke Quay MRT","Boat Quay",0.316413511695154,0.116166367751726
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","80 Bendemeer","80 Bendemeer, Singapore","Kallang",1.3170371,103.8633244,0,0,1,0,1,0,0,1,0,1,69,69,69,"Boon Keng MRT","Blk 7",0.318099073017711,0.150705052017557
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","83 Whampoa Drive","83 Whampoa Drive, Singapore","Novena",1.3235881,103.8570622,0,0,1,0,1,0,0,1,0,1,69,69,69,"Boon Keng MRT","Blk 82",0.691616983709503,0.0960732318971891
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","8 Lorong 7 Toa Payoh","8 Lorong 7 Toa Payoh, Singapore","Toa Payoh",1.3376641,103.8568719,0,0,1,0,1,0,0,1,0,1,69,69,69,"Braddell MRT","Blk 17A",1.16689636996511,0.152944160980098
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Admiralty Park","Admiralty Park, Singapore","Woodlands",1.4464633,103.7805267,0,0,1,0,1,0,0,1,0,1,69,69,69,"Woodlands North MRT","Aft Riverside Rd",0.612702313726933,0.36195210583368
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Alexandra TechnoPark","Alexandra TechnoPark, Singapore","Queenstown",1.2770169,103.799798,0,0,1,0,1,0,0,1,0,1,69,69,69,"Labrador Park MRT","Alexandra Pt",0.627694954467,0.299129518151626
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Bishan-Ang Mo Kio Park","Bishan, Singapore","Bishan",1.3509859,103.8482551,0,0,1,0,1,0,0,1,0,1,69,69,69,"Bishan MRT","BISHAN STN",0.0238613973619713,0.0372349948355843
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Buangkok Square Mall","Buangkok  Mall, Singapore","Hougang",1.3842797,103.8815634,0,0,1,0,1,0,0,1,0,1,69,69,69,"Tongkang Lrt","BLK 998B",0.735773875697336,0.103232895049049
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Buangkok Square Mall (The Rumble Pod)","Buangkok  Mall, Singapore","Hougang",1.3842797,103.8815634,0,0,1,0,1,0,0,1,0,1,69,69,69,"Tongkang Lrt","BLK 998B",0.735773875697336,0.103232895049049
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Bukit Gombak Park","Bukit Gombak Park, Singapore","Bukit Batok",1.367269,103.7524413,0,0,1,0,1,0,0,1,0,1,69,69,69,"Bukit Gombak MRT","Opp Bt Batok Driving Ctr",0.948686831989024,0.245428410663149
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Bukit Timah Shopping Centre","Bukit Timah Shopping Centre, Singapore","Bukit Timah",1.3432265,103.775786,0,0,1,0,1,0,0,1,0,1,69,69,69,"Beauty World MRT","Beauty World Stn Exit B",0.223065606081514,0.0669493642641432
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Changi Airport Terminal 2","Changi Airport Terminal 2, Singapore","Changi",1.3558023,103.9885414,0,0,1,0,1,0,0,1,0,1,69,69,69,"Changi Airport MRT","Changi Airport PTB2",0.169048110024291,0.112444058506323
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Changi Airport Terminal 2 (The Flow Pod)","Changi Airport Terminal 2, Singapore","Changi",1.3558023,103.9885414,0,0,1,0,1,0,0,1,0,1,69,69,69,"Changi Airport MRT","Changi Airport PTB2",0.169048110024291,0.112444058506323
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Changi City Point","Changi  Point, Singapore","Tampines",1.334113,103.9627137,0,0,1,0,1,0,0,1,0,1,69,69,69,"Expo MRT","EXPO STN EXIT E",0.137093651635812,0.106022874224593
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Dhoby Ghaut MRT (Unleashed)","Dhoby Ghaut , Singapore","Museum",1.29962185,103.8454469,0,0,1,0,1,0,0,1,0,1,69,69,69,"Dhoby Ghaut MRT","Dhoby Ghaut Stn",0.129765278131466,0.036787392158038
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","East Coast Park","East Coast Park, Singapore","Tampines",1.31561545,103.967376,0,0,1,0,1,0,0,1,0,1,69,69,69,"Expo MRT","LAGUNA NATL COUNTRY CLUB",2.20612352674406,1.32031697612917
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","EBC Lifestyle Hub","EBC Lifestyle Hub, Singapore","Ang Mo Kio",1.3837071,103.8282343,0,0,1,0,1,0,0,1,0,1,69,69,69,"Lentor MRT","Bef Tagore Rd",0.932564904421219,0.265579531227773
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","EON Shenton The Gym Pod – Container Gyms in Singapore","EON Shenton, Singapore","Downtown Core",1.27385395,103.8462223,0,0,1,0,1,0,0,1,0,1,69,69,69,"Tanjong Pagar MRT","Opp MAS Bldg",0.299258823222157,0.078698997366667
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Grandlink Square","Grandlink , Singapore","Geylang",1.314292,103.8921887,0,0,1,0,1,0,0,1,0,1,69,69,69,"Paya Lebar MRT","Opp Grandlink Sq",0.435895760767348,0.00336630920035048
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Holland Village Park","Holland Village Park, Singapore","Bukit Timah",1.31156665,103.7957062,0,0,1,0,1,0,0,1,0,1,69,69,69,"Holland Village MRT","Holland V Stn Exit A",0.0623265546186655,0.0709701409410277
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Icon IBP","Icon IBP, Singapore","Jurong East",1.3275622,103.7492027,0,0,1,0,1,0,0,1,0,1,69,69,69,"Jurong East MRT","Bef The Synergy",0.989586703135976,0.205453902641546
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","JTC LaunchPad","JTC LaunchPad, Singapore","Western Water Catchment",1.35428385,103.6924146,0,0,1,0,1,0,0,1,0,1,69,69,69,"Pioneer MRT","Bef Lor Danau",1.93773204369192,0.211801284660726
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Kim Keat","Kim Keat, Singapore","Toa Payoh",1.3294271,103.8532782,0,0,1,0,1,0,0,1,0,1,69,69,69,"Toa Payoh MRT","Blk 105",0.737184850771309,0.154738101663982
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Marsiling Park","Marsiling Park, Singapore","Woodlands",1.4372572,103.7699719,0,0,1,0,1,0,0,1,0,1,69,69,69,"Marsiling MRT","W'Lands Town Gdn",0.695710850824081,0.138638310292376
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Marymount, Singapore","Marymount, Singapore","Bishan",1.34860435,103.8393926,0,0,1,0,1,0,0,1,0,1,69,69,69,"Marymount MRT","Opp Marymount Stn",0.0117799325967131,0.127183878358285
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Orchard Plaza – The Gym Pod – Container Gyms in Singapore","Orchard Plaza, Singapore","Orchard",1.3012311,103.8411237,0,0,1,0,1,0,0,1,0,1,69,69,69,"Somerset MRT","Orchard Plaza",0.249926236177189,0.0557434031124105
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Pasir Ris Park Carpark A","Pasir Ris Park , Singapore","Pasir Ris",1.37907725,103.9504783,0,0,1,0,1,0,0,1,0,1,69,69,69,"Pasir Ris MRT","Aft Pasir Ris Rd",0.692010393458656,0.296469925946884
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Pasir Ris Park Carpark D","Pasir Ris Park , Singapore","Pasir Ris",1.37907725,103.9504783,0,0,1,0,1,0,0,1,0,1,69,69,69,"Pasir Ris MRT","Aft Pasir Ris Rd",0.692010393458656,0.296469925946884
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Pasir Ris Park Carpark D (The Grit Pod)","Pasir Ris Park , Singapore","Pasir Ris",1.37907725,103.9504783,0,0,1,0,1,0,0,1,0,1,69,69,69,"Pasir Ris MRT","Aft Pasir Ris Rd",0.692010393458656,0.296469925946884
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Upper Paya Lebar, Singapore","Upper Paya Lebar, Singapore","Hougang",1.3520819,103.8773839,0,0,1,0,1,0,0,1,0,1,69,69,69,"Serangoon MRT","Aft Jln Chermat",0.501063013146915,0.0576392750615516
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Punggol Park","Punggol Park, Singapore","Hougang",1.37706995,103.8984841,0,0,1,0,1,0,0,1,0,1,69,69,69,"Ranggung Lrt","Opp Blk 475B",0.766220776545764,0.180419665122489
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Selegie Road","Selegie Road, Singapore","Rochor",1.3014054,103.8500128,0,0,1,0,1,0,0,1,0,1,69,69,69,"Bencoolen MRT","Peace Ctr",0.286047397019106,0.0502041992713967
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Shell @ Telok Blangah","Shell, Singapore","Hougang",1.3835086,103.8770677,0,0,1,0,1,0,0,1,0,1,69,69,69,"Fernvale Lrt","Ch Of St. Vincent De Paul",0.936660591561551,0.112786711032975
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Tampines, Singapore","Tampines, Singapore","Tampines",1.3546528,103.9435712,0,0,1,0,1,0,0,1,0,1,69,69,69,"Tampines MRT","Tampines Int",0.228788988319209,0.0684019798254629
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Techplace 1","Techplace 1, Singapore","Ang Mo Kio",1.3598891,103.8567427,0,0,1,0,1,0,0,1,0,1,69,69,69,"Lorong Chuan MRT","Opp Blk 4025",1.23963233681143,0.156495048602271
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","The Promenade @ Pelikat"," Promenade, Singapore","Downtown Core",1.29267315,103.8610155,0,0,1,0,1,0,0,1,0,1,69,69,69,"Promenade MRT","Promenade Stn",0.0606749269729822,0.00776090506417229
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","VIIO Balestier","VIIO Balestier, Singapore","Novena",1.3268791,103.8459146,0,0,1,0,1,0,0,1,0,1,69,69,69,"Toa Payoh MRT","Zhongshan Mall",0.664444203432362,0.063240566075107
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Wisma Geylang Serai","Wisma Geylang Serai, Singapore","Geylang",1.31649575,103.8967293,0,0,1,0,1,0,0,1,0,1,69,69,69,"Paya Lebar MRT","Blk 416",0.443210059866385,0.151805054701264
+"The Gym Pod","$12.90 (first 6 sessions, $7.50 per session)
+$69 (first 10 sessions free)","-","$7.50 (Off-Peak)
+$9.50 (Peak)","24-hour access","Mon to Sun
+- 12am to 7am","-","Yishun Neighbourhood Park","Yishun Neighbourhood Park, Singapore","Yishun",1.4377047,103.8350637,0,0,1,0,1,0,0,1,0,1,69,69,69,"Canberra MRT","Opp Yishun Ind Pk A",0.851559272944965,0.146930084772112
+"SAFRA EnergyOne","~$47 - $62 (SAFRA Member)
+~$84 - $105 (non-SAFRA member)
+(till 31 Mar 2024)","~$56 - $73
+(till 31 Mar 2024)","Off-Peak
+$8.75 (SAFRA Members)
+$13.10 (Guest)
+Peak
+$14.20 (SAFRA Members)
+$21.80 (Guest)","Mon to Sun
+- 6.30am to 10.30pm","Mon to Fri
+- 6.30am to 5pm
+Sat & Sun
+- 6.30am to 1pm
+- 8pm to 10.30pm","-","Choa Chu kang","Choa Chu kang, Singapore","Choa Chu Kang",1.3853167,103.744325,0,0,1,0,1,0,0,1,0,0,50,50,50,"Choa Chu Kang MRT","Choa Chu Kang Int",0.00674660291388663,0.0326489273795382
+"SAFRA EnergyOne","~$47 - $62 (SAFRA Member)
+~$84 - $105 (non-SAFRA member)
+(till 31 Mar 2024)","~$56 - $73
+(till 31 Mar 2024)","Off-Peak
+$8.75 (SAFRA Members)
+$13.10 (Guest)
+Peak
+$14.20 (SAFRA Members)
+$21.80 (Guest)","Mon to Sun
+- 6.30am to 10.30pm","Mon to Fri
+- 6.30am to 5pm
+Sat & Sun
+- 6.30am to 1pm
+- 8pm to 10.30pm","-","Jurong","Jurong, Singapore","Western Islands",1.2596598,103.6704396,0,0,1,0,1,0,0,1,0,0,50,50,50,"Gul Circle MRT","Keppel Shipyard",6.75147426221137,3.99876922661827
+"SAFRA EnergyOne","~$47 - $62 (SAFRA Member)
+~$84 - $105 (non-SAFRA member)
+(till 31 Mar 2024)","~$56 - $73
+(till 31 Mar 2024)","Off-Peak
+$8.75 (SAFRA Members)
+$13.10 (Guest)
+Peak
+$14.20 (SAFRA Members)
+$21.80 (Guest)","Mon to Sun
+- 6.30am to 10.30pm","Mon to Fri
+- 6.30am to 5pm
+Sat & Sun
+- 6.30am to 1pm
+- 8pm to 10.30pm","-","Mount Faber","Mount Faber, Singapore","Bukit Merah",1.2735672,103.817645,0,0,1,0,1,0,0,1,0,0,50,50,50,"Telok Blangah MRT","Al-Amin Mque",0.928239859410114,0.29155461740341
+"SAFRA EnergyOne","~$47 - $62 (SAFRA Member)
+~$84 - $105 (non-SAFRA member)
+(till 31 Mar 2024)","~$56 - $73
+(till 31 Mar 2024)","Off-Peak
+$8.75 (SAFRA Members)
+$13.10 (Guest)
+Peak
+$14.20 (SAFRA Members)
+$21.80 (Guest)","Mon to Sun
+- 6.30am to 10.30pm","Mon to Fri
+- 6.30am to 5pm
+Sat & Sun
+- 6.30am to 1pm
+- 8pm to 10.30pm","-","Punggol","Punggol, Singapore","Punggol",1.4066092,103.9036761,0,0,1,0,1,0,0,1,0,0,50,50,50,"Punggol Lrt","Punggol View Pr Sch",0.212920541922342,0.139009414383973
+"SAFRA EnergyOne","~$47 - $62 (SAFRA Member)
+~$84 - $105 (non-SAFRA member)
+(till 31 Mar 2024)","~$56 - $73
+(till 31 Mar 2024)","Off-Peak
+$8.75 (SAFRA Members)
+$13.10 (Guest)
+Peak
+$14.20 (SAFRA Members)
+$21.80 (Guest)","Mon to Sun
+- 6.30am to 10.30pm","Mon to Fri
+- 6.30am to 5pm
+Sat & Sun
+- 6.30am to 1pm
+- 8pm to 10.30pm","-","Tampines","Tampines, Singapore","Tampines",1.3546528,103.9435712,0,0,1,0,1,0,0,1,0,0,50,50,50,"Tampines MRT","Tampines Int",0.228788988319209,0.0684019798254629
+"SAFRA EnergyOne","~$47 - $62 (SAFRA Member)
+~$84 - $105 (non-SAFRA member)
+(till 31 Mar 2024)","~$56 - $73
+(till 31 Mar 2024)","Off-Peak
+$8.75 (SAFRA Members)
+$13.10 (Guest)
+Peak
+$14.20 (SAFRA Members)
+$21.80 (Guest)","Mon to Sun
+- 6.30am to 10.30pm","Mon to Fri
+- 6.30am to 5pm
+Sat & Sun
+- 6.30am to 1pm
+- 8pm to 10.30pm","-","Toa Payoh","Toa Payoh, Singapore","Toa Payoh",1.3353906,103.8497414,0,0,1,0,1,0,0,1,0,0,50,50,50,"Toa Payoh MRT","Opp Blk 177",0.39291737381523,0.158031741245129
+"SAFRA EnergyOne","~$47 - $62 (SAFRA Member)
+~$84 - $105 (non-SAFRA member)
+(till 31 Mar 2024)","~$56 - $73
+(till 31 Mar 2024)","Off-Peak
+$8.75 (SAFRA Members)
+$13.10 (Guest)
+Peak
+$14.20 (SAFRA Members)
+$21.80 (Guest)","Mon to Sun
+- 6.30am to 10.30pm","Mon to Fri
+- 6.30am to 5pm
+Sat & Sun
+- 6.30am to 1pm
+- 8pm to 10.30pm","-","Yishun","Yishun, Singapore","Yishun",1.4293839,103.8350282,0,0,1,0,1,0,0,1,0,0,50,50,50,"Yishun MRT","Yishun Stn",0.00660077689328852,0.0220577854788998
+"Dennis Gym","$64.17 - $120","-","-","24-hour access","-","-","Balestier","Balestier, Singapore","Novena",1.326226,103.8473149,0,0,1,0,1,0,0,1,0,0,83,83,83,"Toa Payoh MRT","Opp Zhongshan Mall",0.713130860908299,0.0998873769794083
+"Dennis Gym","$64.17 - $120","-","-","24-hour access","-","-","Farrer Park","Farrer Park, Singapore","Rochor",1.31247425,103.8541424,0,0,1,0,1,0,0,1,0,0,83,83,83,"Farrer Park MRT","Farrer Pk Stn Exit A",0.01533631590672,0.0855968820536716
+"Dennis Gym","$64.17 - $120","-","-","24-hour access","-","-","Jurong","Jurong, Singapore","Western Islands",1.2596598,103.6704396,0,0,1,0,1,0,0,1,0,0,83,83,83,"Gul Circle MRT","Keppel Shipyard",6.75147426221137,3.99876922661827
+"Dennis Gym","$64.17 - $120","-","-","24-hour access","-","-","Tampines","Tampines, Singapore","Tampines",1.3546528,103.9435712,0,0,1,0,1,0,0,1,0,0,83,83,83,"Tampines MRT","Tampines Int",0.228788988319209,0.0684019798254629
+"Dennis Gym","$64.17 - $120","-","-","24-hour access","-","-","Tai Seng","Tai Seng, Singapore","Hougang",1.3353828,103.8883061,0,0,1,0,1,0,0,1,0,0,83,83,83,"Tai Seng MRT","Aft Tai Seng Stn",0.0129726613676231,0.034408972513306
+"Dennis Gym","$64.17 - $120","-","-","24-hour access","-","-","Taman Jurong","Taman Jurong, Singapore","Jurong West",1.334224,103.7226081,0,0,1,0,1,0,0,1,0,0,83,83,83,"Lakeside MRT","Blk 117",1.13212336147298,0.0520588818674694
+"HomeTeamNS (Fitness Workz)","$81.25 - $145 (Guest)
+$61.25 - $103.33 (Affiliate)
+$49.17 - $85 (HomeTeamNS)","$72.92 - $110 (Guest)
+$52.92 - $80 (Affiliate)
+$40.83 - $66.67 (HomeTeamNS)","Off-Peak
+$8.60 (HomeTeamNS)
+$12.80 (Affiliate)
+$21.40 (Guest)
+All Day
+$8.60 (HomeTeamNS)
+$12.80 (Affiliate)
+$21.40 (Guest)","Mon to Sun
+- 7am to 10.30pm","Mon to Fri
+- 7am to 5.15pm
+Sat & Sun, PH
+- 7am to 1.45pm","-","Balestier","Balestier, Singapore","Novena",1.326226,103.8473149,0,1,1,0,1,1,0,1,0,1,82,82,82,"Toa Payoh MRT","Opp Zhongshan Mall",0.713130860908299,0.0998873769794083
+"HomeTeamNS (Fitness Workz)","$81.25 - $145 (Guest)
+$61.25 - $103.33 (Affiliate)
+$49.17 - $85 (HomeTeamNS)","$72.92 - $110 (Guest)
+$52.92 - $80 (Affiliate)
+$40.83 - $66.67 (HomeTeamNS)","Off-Peak
+$8.60 (HomeTeamNS)
+$12.80 (Affiliate)
+$21.40 (Guest)
+All Day
+$8.60 (HomeTeamNS)
+$12.80 (Affiliate)
+$21.40 (Guest)","Mon to Sun
+- 7am to 10.30pm","Mon to Fri
+- 7am to 5.15pm
+Sat & Sun, PH
+- 7am to 1.45pm","-","Bedok","Bedok, Singapore","Bedok",1.3239765,103.930216,0,1,1,0,1,1,0,1,0,1,82,82,82,"Bedok MRT","Bedok Stn Exit B",0.0239876135533293,0.0386042654466607
+"HomeTeamNS (Fitness Workz)","$81.25 - $145 (Guest)
+$61.25 - $103.33 (Affiliate)
+$49.17 - $85 (HomeTeamNS)","$72.92 - $110 (Guest)
+$52.92 - $80 (Affiliate)
+$40.83 - $66.67 (HomeTeamNS)","Off-Peak
+$8.60 (HomeTeamNS)
+$12.80 (Affiliate)
+$21.40 (Guest)
+All Day
+$8.60 (HomeTeamNS)
+$12.80 (Affiliate)
+$21.40 (Guest)","Mon to Sun
+- 7am to 10.30pm","Mon to Fri
+- 7am to 5.15pm
+Sat & Sun, PH
+- 7am to 1.45pm","-","Bukit Batok","Bukit Batok, Singapore","Bukit Batok",1.3490572,103.7495906,0,1,1,0,1,1,0,1,0,1,82,82,82,"Bukit Batok MRT","Bt Batok Int",0.00449163661139708,0.193100979972079
+"HomeTeamNS (Fitness Workz)","$81.25 - $145 (Guest)
+$61.25 - $103.33 (Affiliate)
+$49.17 - $85 (HomeTeamNS)","$72.92 - $110 (Guest)
+$52.92 - $80 (Affiliate)
+$40.83 - $66.67 (HomeTeamNS)","Off-Peak
+$8.60 (HomeTeamNS)
+$12.80 (Affiliate)
+$21.40 (Guest)
+All Day
+$8.60 (HomeTeamNS)
+$12.80 (Affiliate)
+$21.40 (Guest)","Mon to Sun
+- 7am to 10.30pm","Mon to Fri
+- 7am to 5.15pm
+Sat & Sun, PH
+- 7am to 1.45pm","-","Khatib","Khatib, Singapore","Yishun",1.4173597,103.8330179,0,1,1,0,1,1,0,1,0,1,82,82,82,"Khatib MRT","Opp Khatib Stn",0.00343040373321115,0.0589023916424619
+"GymmBoxx","$95 - $130","$65 - $110","-","24-hour access","Mon to Fri
+- 12am to 4pm
+- 11pm to 11.59pm
+Sat & Sun","Registration Fee applies","Bishan","Bishan, Singapore","Bishan",1.3509859,103.8482551,0,0,1,0,1,0,0,1,0,0,98,98,98,"Bishan MRT","BISHAN STN",0.0238613973619713,0.0372349948355843
+"GymmBoxx","$95 - $130","$65 - $110","-","24-hour access","Mon to Fri
+- 12am to 4pm
+- 11pm to 11.59pm
+Sat & Sun","Registration Fee applies","Canberra Plaza","Canberra Plaza, Singapore","Sembawang",1.4431568,103.830618,0,0,1,0,1,0,0,1,0,0,98,98,98,"Canberra MRT","BLK 129A",0.098868410168853,0.316535255176843
+"GymmBoxx","$95 - $130","$65 - $110","-","24-hour access","Mon to Fri
+- 12am to 4pm
+- 11pm to 11.59pm
+Sat & Sun","Registration Fee applies","Hougang Ave 7, Singapore","Hougang Ave 7, Singapore","Hougang",1.3624652,103.8953421,0,0,1,0,1,0,0,1,0,0,98,98,98,"Hougang MRT","Aft Defu Ave 1",1.03496956952625,0.140498943348492
+"GymmBoxx","$95 - $130","$65 - $110","-","24-hour access","Mon to Fri
+- 12am to 4pm
+- 11pm to 11.59pm
+Sat & Sun","Registration Fee applies","Fernvale","Fernvale, Singapore","Sengkang",1.39194505,103.8762535,0,0,1,0,1,0,0,1,0,0,98,98,98,"Fernvale Lrt","Opp Fernvale Stn",0.00664976340931487,0.136379624902942
+"GymmBoxx","$95 - $130","$65 - $110","-","24-hour access","Mon to Fri
+- 12am to 4pm
+- 11pm to 11.59pm
+Sat & Sun","Registration Fee applies","Margaret Market","Margaret Market, Singapore","Queenstown",1.2977505,103.804329,0,0,1,0,1,0,0,1,0,0,98,98,98,"Queenstown MRT","Aft Ch Of Our Saviour",0.36687022752838,0.0800327118528445
+"GymmBoxx","$95 - $130","$65 - $110","-","24-hour access","Mon to Fri
+- 12am to 4pm
+- 11pm to 11.59pm
+Sat & Sun","Registration Fee applies","Keat Hong","Keat Hong, Singapore","Choa Chu Kang",1.3786034,103.7490207,0,0,1,0,1,0,0,1,0,0,98,98,98,"Keat Hong Lrt","Opp Blks 237/239",0.00617865723045482,0.156126319373072
+"GymmBoxx","$95 - $130","$65 - $110","-","24-hour access","Mon to Fri
+- 12am to 4pm
+- 11pm to 11.59pm
+Sat & Sun","Registration Fee applies","Yew Tee","Yew Tee, Singapore","Choa Chu Kang",1.3974608,103.7474009,0,0,1,0,1,0,0,1,0,0,98,98,98,"Yew Tee MRT","Yew Tee Stn",0.00825925552119916,0.0188068746336218
+"GymmBoxx","$95 - $130","$65 - $110","-","24-hour access","Mon to Fri
+- 12am to 4pm
+- 11pm to 11.59pm
+Sat & Sun","Registration Fee applies","Vista Point","Vista Point, Singapore","Woodlands",1.4307324,103.7940437,0,0,1,0,1,0,0,1,0,0,98,98,98,"Woodlands South MRT","Opp Blk 583",0.386859673055423,0.0835563951282368
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","ACE The Place Community Club","ACE  Place , Singapore","Woodlands",1.4274721,103.7921603,0,0,1,0,1,0,0,1,0,1,118,118,118,"Woodlands South MRT","Opp Blk 540",0.185229335833564,0.0613929222791267
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Balestier","Balestier, Singapore","Novena",1.326226,103.8473149,0,0,1,0,1,0,0,1,0,1,118,118,118,"Toa Payoh MRT","Opp Zhongshan Mall",0.713130860908299,0.0998873769794083
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Bedok Community Center","Bedok Community Center, Singapore","Bedok",1.32428785,103.936066,0,0,1,0,1,0,0,1,0,1,118,118,118,"Bedok MRT","Opp Blk 220 CP",0.681456407748236,0.151284722554384
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Boon Keng","Boon Keng, Singapore","Kallang",1.3191097,103.8612089,0,0,1,0,1,0,0,1,0,1,118,118,118,"Boon Keng MRT","Boon Keng Stn/Blk 102",0.0627931274909733,0.127797507577653
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Boon Lay","Boon Lay, Singapore","Jurong West",1.3385504,103.7058124,0,0,1,0,1,0,0,1,0,1,118,118,118,"Boon Lay MRT","Boon Lay Int",0.0300580753540046,0.0940608386981094
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Broadway Plaza","Broadway Plaza, Singapore","Ang Mo Kio",1.37193525,103.8459598,0,0,1,0,1,0,0,1,0,1,118,118,118,"Ang Mo Kio MRT","Bef Al-Muttaqin Mque",0.523979816231525,0.120307577540782
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Bukit Timah Shopping Centre","Bukit Timah Shopping Centre, Singapore","Bukit Timah",1.3432265,103.775786,0,0,1,0,1,0,0,1,0,1,118,118,118,"Beauty World MRT","Beauty World Stn Exit B",0.223065606081514,0.0669493642641432
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Buona Vista","Buona Vista, Singapore","Queenstown",1.30660965,103.790751,0,0,1,0,1,0,0,1,0,1,118,118,118,"Buona Vista MRT","Buona Vista Stn Exit C",0.0930634096254783,0.0274532462340967
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Cantonment Road","Cantonment Road, Singapore","Outram",1.2764579,103.8408419,0,0,1,0,1,0,0,1,0,1,118,118,118,"Tanjong Pagar MRT","Maritime Hse",0.563651503380616,0.0416415706194141
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Cecil Street","Cecil Street, Singapore","Downtown Core",1.2822338,103.8498919,0,0,1,0,1,0,0,1,0,1,118,118,118,"Telok Ayer MRT","Prudential Twr",0.177861754317002,0.037160128876654
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Choa Chu Kang","Choa Chu Kang, Singapore","Choa Chu Kang",1.3853167,103.744325,0,0,1,0,1,0,0,1,0,1,118,118,118,"Choa Chu Kang MRT","Choa Chu Kang Int",0.00674660291388663,0.0326489273795382
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Choa Chu Kang Centre","Choa Chu Kang Centre, Singapore","Choa Chu Kang",1.38512285,103.7457279,0,0,1,0,1,0,0,1,0,1,118,118,118,"Choa Chu Kang Lrt","Lot 1 Shoppers' Mall",0.13149499045887,0.0929210649765979
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Hougang Ave 7, Singapore","Hougang Ave 7, Singapore","Hougang",1.3624652,103.8953421,0,0,1,0,1,0,0,1,0,1,118,118,118,"Hougang MRT","Aft Defu Ave 1",1.03496956952625,0.140498943348492
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Clementi City","Clementi , Singapore","Clementi",1.3151003,103.7652311,0,0,1,0,1,0,0,1,0,1,118,118,118,"Clementi MRT","Clementi Stn",0.0195819300821531,0.0235631622553697
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","CSC Bukit Batok"," Bukit Batok, Singapore","Bukit Batok",1.3490572,103.7495906,0,0,1,0,1,0,0,1,0,1,118,118,118,"Bukit Batok MRT","Bt Batok Int",0.00449163661139708,0.193100979972079
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Djitsun Mall","Djitsun Mall, Singapore","Ang Mo Kio",1.3728336,103.8476584,0,0,1,0,1,0,0,1,0,1,118,118,118,"Ang Mo Kio MRT","Aft Ang Mo Kio Int",0.460874218389044,0.150253273945915
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Downtown, Singapore","Downtown, Singapore","Downtown Core",1.27952885,103.8528525,0,0,1,0,1,0,0,1,0,1,118,118,118,"Downtown MRT","Downtown Stn",0.011353811703197,0.0188413991908729
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Eastpoint Mall","Eastpoint Mall, Singapore","Tampines",1.3424679,103.9528535,0,0,1,0,1,0,0,1,0,1,118,118,118,"Simei MRT","Simei Stn",0.0972019816859291,0.0672667422239881
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Elias Community Centre","Elias , Singapore","Pasir Ris",1.3833508,103.9390071,0,0,1,0,1,0,0,1,0,1,118,118,118,"Pasir Ris MRT","Opp Blk 713",1.62409241356682,0.0859221601228143
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Geylang","Geylang, Singapore","Geylang",1.3181862,103.8870563,0,0,1,0,1,0,0,1,0,1,118,118,118,"Aljunied MRT","Opp Geylang Polyclinic",0.505914153555829,0.0796624394017299
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Greenwich V","Greenwich V, Singapore","Serangoon",1.38750095,103.8693942,0,0,1,0,1,0,0,1,0,1,118,118,118,"Fernvale Lrt","The Greenwich",0.910700110934808,0.0703634785456008
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","HarbourFront","HarbourFront, Singapore","Bukit Merah",1.265362,103.8215518,0,0,1,0,1,0,0,1,0,1,118,118,118,"Harbourfront MRT","VivoCity",0.021371161970783,0.0598863329454701
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","HillV2","HillV2, Singapore","Bukit Batok",1.3633627,103.7642765,0,0,1,0,1,0,0,1,0,1,118,118,118,"Hillview MRT","Opp Glendale Pk Condo",0.36506347667918,0.0726186546359034
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Hougang Community Club","Hougang , Singapore","Hougang",1.3733601,103.8860907,0,0,1,0,1,0,0,1,0,1,118,118,118,"Hougang MRT","Bef Blk 683",0.735869080937928,0.0563320559562386
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Hougang Green Shopping Mall","Hougang Green Shopping Mall, Singapore","Hougang",1.3791215,103.8878419,0,0,1,0,1,0,0,1,0,1,118,118,118,"Buangkok MRT","Hougang G. Shop Mall",0.725001769126494,0.0874287682650353
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Hwi Yoh","Hwi Yoh, Singapore","Serangoon",1.36736835,103.871463,0,0,1,0,1,0,0,1,0,1,118,118,118,"Kovan MRT","Blk 126",1.70860136895092,0.1734080436272
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","International Plaza","International Plaza, Singapore","Downtown Core",1.275755,103.8459004,0,0,1,0,1,0,0,1,0,1,118,118,118,"Tanjong Pagar MRT","Intl Plaza",0.0853910401219862,0.0472159720773111
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","JForte Sportainment Centre","JForte Sportainment Centre, Singapore","Hougang",1.3603138,103.8880765,0,0,1,0,1,0,0,1,0,1,118,118,118,"Kovan MRT","Bet Blks 210/211",0.338108735722724,0.153900498618637
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Junction 9","Junction 9, Singapore","Downtown Core",1.2899175,103.8519072,0,0,1,0,1,0,0,1,0,1,118,118,118,"City Hall MRT","Supreme Ct",0.344551343726489,0.113402758713155
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Jurong Point","Jurong Point, Singapore","Jurong West",1.33949635,103.705254,0,0,1,0,1,0,0,1,0,1,118,118,118,"Boon Lay MRT","Boon Lay Int",0.130765826936349,0.0261652476608382
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Kembangan","Kembangan, Singapore","Bedok",1.3210321,103.9129269,0,0,1,0,1,0,0,1,0,1,118,118,118,"Kembangan MRT","Kembangan Stn",0.00554026954477433,0.048380442894199
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Keppel","Keppel, Singapore","Bukit Merah",1.2702739,103.8304598,0,0,1,0,1,0,0,1,0,1,118,118,118,"Harbourfront MRT","Tg Pagar DP Blk F5",1.14090746178548,0.0466274142606529
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Kinex","Kinex, Singapore","Geylang",1.31476385,103.894707,0,0,1,0,1,0,0,1,0,1,118,118,118,"Paya Lebar MRT","Opp City Plaza",0.414979457401467,0.12998406442831
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Kolam Ayer Community Club","Kolam Ayer , Singapore","Kallang",1.3262252,103.8704089,0,0,1,0,1,0,0,1,0,1,118,118,118,"Geylang Bahru MRT","Kolam Ayer Ind Est",0.551241319558955,0.109201864038205
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Loyang Point","Loyang Point, Singapore","Pasir Ris",1.36696475,103.9646487,0,0,1,0,1,0,0,1,0,1,118,118,118,"Tampines East MRT","Loyang Pt",1.63349555789894,0.0395345795344116
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","MacPherson Community Club","MacPherson , Singapore","Geylang",1.32620695,103.889507,0,0,1,0,1,0,0,1,0,1,118,118,118,"Macpherson MRT","Macpherson Stn Exit A",0.0889325864433339,0.0201975768861828
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","1 Marine Parade, Singapore 449408","1 Marine Parade, Singapore","Marine Parade",1.30189995,103.906091,0,0,1,0,1,0,0,1,0,1,118,118,118,"Eunos MRT","Parkway Parade",2.01534741440288,0.12392168313688
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Marsiling Community Club","Marsiling , Singapore","Woodlands",1.4325704,103.7741243,0,0,1,0,1,0,0,1,0,1,118,118,118,"Marsiling MRT","Marsiling Stn",0.00695458776074736,0.030198146381197
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Marymount Community Club","Marymount , Singapore","Bishan",1.34860435,103.8393926,0,0,1,0,1,0,0,1,0,1,118,118,118,"Marymount MRT","Opp Marymount Stn",0.0117799325967131,0.127183878358285
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Nanyang Community Club Building","Nanyang  , Singapore","Jurong West",1.3418944,103.6922175,0,0,1,0,1,0,0,1,0,1,118,118,118,"Pioneer MRT","Blk 962",0.744816573636606,0.0983840351877824
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","New Tech Park","New Tech Park, Singapore","Serangoon",1.35205535,103.8608148,0,0,1,0,1,0,0,1,0,1,118,118,118,"Lorong Chuan MRT","New Tech Pk",0.376275239754709,0.166910761595766
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","NEX","NEX, Singapore","Serangoon",1.3505193,103.8722533,0,0,1,0,1,0,0,1,0,1,118,118,118,"Serangoon MRT","S'Goon Int",0.168171862165211,0.0682689582398462
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Northpoint City","Northpoint , Singapore","Yishun",1.4282062,103.836264,0,0,1,0,1,0,0,1,0,1,118,118,118,"Yishun MRT","Opp Yishun Stn",0.199328161055976,0.109064428848572
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Northshore Plaza","Northshore Plaza, Singapore","Punggol",1.4167181,103.9021341,0,0,1,0,1,0,0,1,0,1,118,118,118,"Samudera Lrt","Blk 312 CP",0.0910838054972513,0.76873867245463
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Novena","Novena, Singapore","Novena",1.3205257,103.8438813,0,0,1,0,1,0,0,1,0,1,118,118,118,"Novena MRT","Novena Stn",0.0125895513708485,0.112583323803378
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Oasis Terraces – Anytime Fitness Gym","Oasis Terraces, Singapore","Punggol",1.402819,103.91321,0,0,1,0,1,0,0,1,0,1,118,118,118,"Oasis Lrt","Oasis Stn Exit A",0.0792346231692492,0.0881930779412753
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Pasir Panjang","Pasir Panjang, Singapore","Queenstown",1.27620135,103.7914758,0,0,1,0,1,0,0,1,0,1,118,118,118,"Pasir Panjang MRT","Pasir Panjang Stn/Fc",0.0167171540569982,0.133318421475034
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Pioneer Mall","Pioneer Mall, Singapore","Jurong West",1.34169785,103.6971606,0,0,1,0,1,0,0,1,0,1,118,118,118,"Pioneer MRT","Blk 717",0.457847292927452,0.0926071326144247
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Potong Pasir","Potong Pasir, Singapore","Toa Payoh",1.33141385,103.8691379,0,0,1,0,1,0,0,1,0,1,118,118,118,"Potong Pasir MRT","Potong Pasir Stn Exit C",0.00625082363987909,0.0224257713348423
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Queensway Shopping Centre","Queensway Shopping Centre, Singapore","Queenstown",1.28753815,103.8035059,0,0,1,0,1,0,0,1,0,1,118,118,118,"Queenstown MRT","Opp Queensway Shop Ctr",0.857286613415269,0.0995336588012053
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","REHAU Building","REHAU , Singapore","Kallang",1.30722275,103.8586581,0,0,1,0,1,0,0,1,0,1,118,118,118,"Jalan Besar MRT","Aft King George's Ave",0.41191652849018,0.116675323900824
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Rivervale Mall","Rivervale Mall, Singapore","Sengkang",1.39224515,103.9043778,0,0,1,0,1,0,0,1,0,1,118,118,118,"Rumbia Lrt","Opp Rivervale Pr Sch",0.195291903798465,0.116438763060092
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Sembawang Shopping Centre","Sembawang Shopping Centre, Singapore","Sembawang",1.44186825,103.8249312,0,0,1,0,1,0,0,1,0,1,118,118,118,"Canberra MRT","Opp Sembawang Shop Ctr",0.553788991082978,0.0975791401356531
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Serangoon Gardens","Serangoon Gardens, Singapore","Serangoon",1.3624579,103.8660127,0,0,1,0,1,0,0,1,0,1,118,118,118,"Lorong Chuan MRT","Opp Penshurst Pl",1.22474421943993,0.0689604955777398
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Seng Kang, Singapore","Seng Kang, Singapore","Sengkang",1.38874605,103.8893481,0,0,1,0,1,0,0,1,0,1,118,118,118,"Renjong Lrt","Blk 303B",0.26399576297683,0.180441990246879
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Stevens","Stevens, Singapore","Tanglin",1.31991405,103.8261681,0,0,1,0,1,0,0,1,0,1,118,118,118,"Stevens MRT","Stevens Stn",0.0258174200842633,0.0292397193041875
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Taman Jurong Community Club","Taman Jurong , Singapore","Jurong West",1.334224,103.7226081,0,0,1,0,1,0,0,1,0,1,118,118,118,"Lakeside MRT","Blk 117",1.13212336147298,0.0520588818674694
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Tampines Central Community Complex","Tampines  Community , Singapore","Tampines",1.3536346,103.9457461,0,0,1,0,1,0,0,1,0,1,118,118,118,"Tampines MRT","Tampines Stn/Int",0.0717205761157427,0.0436249766834542
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Tampines Mart – Anytime Fitness Gym","Tampines Mart, Singapore","Tampines",1.3543718,103.9600249,0,0,1,0,1,0,0,1,0,1,118,118,118,"Tampines East MRT","Opp Blk 331",0.630538218005941,0.060851633698823
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Tampines North Community Club","Tampines North , Singapore","Tampines",1.3675672,103.9378199,0,0,1,0,1,0,0,1,0,1,118,118,118,"Pasir Ris MRT","Blk 778",1.41153800251765,0.744073210078217
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Tampines West","Tampines West, Singapore","Tampines",1.3487388,103.9357006,0,0,1,0,1,0,0,1,0,1,118,118,118,"Tampines West MRT","Opp Blk 819",0.470699554738124,0.09580272825769
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Tanjong Katong","Tanjong Katong, Singapore","Marine Parade",1.29961015,103.8973281,0,0,1,0,1,0,0,1,0,1,118,118,118,"Dakota MRT","Tg Katong Rd Sth P/G",1.37029352820614,0.132932163468892
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Telok Blangah","Telok Blangah, Singapore","Bukit Merah",1.27102005,103.8096948,0,0,1,0,1,0,0,1,0,1,118,118,118,"Telok Blangah MRT","Opp Telok Blangah Stn",0.0301880118574288,0.0364197101630991
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","The Cathay"," Cathay, Singapore","Museum",1.2995034,103.8476755,0,0,1,0,1,0,0,1,0,1,118,118,118,"Dhoby Ghaut MRT","Aft Dhoby Ghaut Stn",0.197671443735553,0.14239070595457
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","The Midtown"," Midtown, Singapore","Rochor",1.3021118,103.861694,0,0,1,0,1,0,0,1,0,1,118,118,118,"Nicoll Highway MRT","Sultan Plaza",0.338563261438525,0.0895607277851873
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","The Woodgrove"," Woodgrove, Singapore","Woodlands",1.4289984,103.7802487,0,0,1,0,1,0,0,1,0,1,118,118,118,"Marsiling MRT","Blk 335",0.786366314215901,0.0795483277804708
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Tiong Bahru Plaza","Tiong Bahru Plaza, Singapore","Bukit Merah",1.2863599,103.827333,0,0,1,0,1,0,0,1,0,1,118,118,118,"Tiong Bahru MRT","Tiong Bahru Plaza",0.036317679578501,0.0450445332480296
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Toa Payoh","Toa Payoh, Singapore","Toa Payoh",1.3353906,103.8497414,0,0,1,0,1,0,0,1,0,1,118,118,118,"Toa Payoh MRT","Opp Blk 177",0.39291737381523,0.158031741245129
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Upper Cross Street","Upper Cross Street, Singapore","Outram",1.288093,103.8413923,0,0,1,0,1,0,0,1,0,1,118,118,118,"Chinatown MRT","Blk 2",0.472867966908965,0.192034973607049
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Upper Thomson","Upper Thomson, Singapore","Bishan",1.35463855,103.8325124,0,0,1,0,1,0,0,1,0,1,118,118,118,"Upper Thomson MRT","Bef Thomson Plaza",0.0549291889586667,0.016079774140475
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Valley Point Shopping Centre","Valley Point Shopping Centre, Singapore","Tanglin",1.2932368,103.8271673,0,0,1,0,1,0,0,1,0,1,118,118,118,"Tiong Bahru MRT","Valley Pt",0.784348239082608,0.0628337867525338
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","West Coast Plaza – Anytime Fitness Gym","West Coast Plaza, Singapore","Clementi",1.30363585,103.766034,0,0,1,0,1,0,0,1,0,1,118,118,118,"Clementi MRT","Blk 726 Clementi West Mkt",1.26238261580282,0.172857080694194
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Wisteria Mall","Wisteria Mall, Singapore","Yishun",1.4182429,103.8412529,0,0,1,0,1,0,0,1,0,1,118,118,118,"Khatib MRT","Blk 671 CP",0.930836773236817,0.0946459728358276
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Woodlands Galaxy Community Club","Woodlands Galaxy , Singapore","Woodlands",1.438842,103.8027644,0,0,1,0,1,0,0,1,0,1,118,118,118,"Admiralty MRT","Opp Blk 681B",0.279837830375913,0.101114694114453
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Woodlands, Singapore","Woodlands, Singapore","Woodlands",1.43594395,103.7878995,0,0,1,0,1,0,0,1,0,1,118,118,118,"Woodlands MRT","Opp Blk 892C CP",0.188507817723881,0.159854153185605
+"Anytime Fitness","$60 - $160","-","-","24-hour access","-","Price varies with location & promos","Yew Tee Community Club","Yew Tee , Singapore","Choa Chu Kang",1.3974608,103.7474009,0,0,1,0,1,0,0,1,0,1,118,118,118,"Yew Tee MRT","Yew Tee Stn",0.00825925552119916,0.0188068746336218
+"Virgin Active","$133.24 - $318.92","-","-","Weekdays
+- 6.30am to 10.30pm
+Weekends/PH
+- 8am to 8pm","-","-","Holland Village","Holland Village, Singapore","Bukit Timah",1.31172195,103.7960797,0,1,1,0,1,1,1,1,0,1,276,276,276,"Holland Village MRT","Holland V Stn Exit A",0.0161888079808859,0.0773133284523923
+"Virgin Active","$133.24 - $318.92","-","-","Weekdays
+- 6.30am to 10.30pm
+Weekends/PH
+- 8am to 8pm","-","-","Marina One","Marina One, Singapore","Downtown Core",1.27725865,103.8529596,0,1,1,0,1,1,1,1,0,1,276,276,276,"Marina Bay MRT","Downtown Stn",0.200475841632492,0.239428548793234
+"Virgin Active","$133.24 - $318.92","-","-","Weekdays
+- 6.30am to 10.30pm
+Weekends/PH
+- 8am to 8pm","-","-","Paya Lebar","Paya Lebar, Singapore","Geylang",1.3174795,103.8923525,0,1,1,0,1,1,1,1,0,1,276,276,276,"Paya Lebar MRT","Paya Lebar Stn Exit B",0.101821231794477,0.12887508968013
+"Virgin Active","$133.24 - $318.92","-","-","Weekdays
+- 6.30am to 10.30pm
+Weekends/PH
+- 8am to 8pm","-","-","Raffles Place","Raffles Place, Singapore","Downtown Core",1.2835417,103.8514602,0,1,1,0,1,1,1,1,0,1,276,276,276,"Raffles Place MRT","Raffles Pl Stn Exit F",0.0651068226870988,0.178143616940362
+"Virgin Active","$133.24 - $318.92","-","-","Weekdays
+- 6.30am to 10.30pm
+Weekends/PH
+- 8am to 8pm","-","-","Tanjong Pagar","Tanjong Pagar, Singapore","Downtown Core",1.27660565,103.8457793,0,1,1,0,1,1,1,1,0,1,276,276,276,"Tanjong Pagar MRT","Intl Plaza",0.0118368190221384,0.116010132794984
+"FitnessFirst","$210 - $225",NA,NA,"Weekdays
+- 6am to 10pm
+Weekends/PH
+- 8am to 8pm",NA,NA,"100 AM (Tanjong Pagar)","100 AM, Singapore","Downtown Core",1.2899175,103.8519072,0,0,1,1,1,0,0,1,1,1,210,210,210,"City Hall MRT","Supreme Ct",0.344551343726489,0.113402758713155
+"FitnessFirst","$210 - $225",NA,NA,"Weekdays
+- 6am to 10pm
+Weekends/PH
+- 8am to 8pm",NA,NA,"Alexandra (Mapletree Business City)","Alexandra, Singapore","Bukit Merah",1.2814457,103.8020305,0,0,0,0,1,0,1,1,0,0,210,210,210,"Labrador Park MRT","SP Jain",1.0198597534159,0.0650001556474066
+"FitnessFirst","$210 - $225",NA,NA,"Weekdays
+- 6am to 10pm
+Weekends/PH
+- 8am to 8pm",NA,NA,"AMK Hub","AMK Hub, Singapore","Ang Mo Kio",1.36943465,103.848334,1,0,0,0,1,0,1,1,1,0,210,210,210,"Ang Mo Kio MRT","Ang Mo Kio Int",0.18199414761642,0.0406856608545711
+"FitnessFirst","$210 - $225",NA,NA,"Weekdays
+- 6am to 10pm
+Weekends/PH
+- 8am to 8pm",NA,NA,"Capital Tower","Capital Tower, Singapore","Downtown Core",1.27763235,103.8476331,1,0,1,0,1,1,0,1,1,0,210,210,210,"Tanjong Pagar MRT","Aft Capital Twr",0.229360731726721,0.0595585239729615
+"FitnessFirst","$210 - $225",NA,NA,"Weekdays
+- 6am to 10pm
+Weekends/PH
+- 8am to 8pm",NA,NA,"Changi (UE Biz Hub)","Changi, Singapore","Changi",1.3539247,103.9746973,0,1,0,1,1,0,1,1,0,1,210,210,210,"Changi Airport MRT","Bef Changi Prison Cplx",1.56682886070363,0.19560596722616
+"FitnessFirst","$210 - $225",NA,NA,"Weekdays
+- 6am to 10pm
+Weekends/PH
+- 8am to 8pm",NA,NA,"Fusionopolis","Fusionopolis, Singapore","Queenstown",1.29923685,103.7878907,0,0,1,0,1,0,1,1,1,1,210,210,210,"One-North MRT","One-North Stn",0.0762437455095872,0.0908456757843727
+"FitnessFirst","$210 - $225",NA,NA,"Weekdays
+- 6am to 10pm
+Weekends/PH
+- 8am to 8pm",NA,NA,"Market Street","Market Street, Singapore","Downtown Core",1.2833165,103.8503233,0,0,1,0,1,0,1,1,0,1,210,210,210,"Raffles Place MRT","Prudential Twr",0.157601309747878,0.0914116358411048
+"FitnessFirst","$210 - $225",NA,NA,"Weekdays
+- 6am to 10pm
+Weekends/PH
+- 8am to 8pm",NA,NA,"MBFC (Marina Bay Financial Centre)","MBFC, Singapore","Downtown Core",1.2801328,103.8541795,1,0,1,0,1,0,1,1,1,1,210,210,210,"Downtown MRT","Marina Bay Financial Ctr",0.169526749627534,0.090992753020367
+"FitnessFirst","$210 - $225",NA,NA,"Weekdays
+- 6am to 10pm
+Weekends/PH
+- 8am to 8pm",NA,NA,"One George Street","One George Street, Singapore","Downtown Core",1.285739,103.8477899,0,0,0,0,1,0,1,1,0,1,210,210,210,"Clarke Quay MRT","Opp OCBC Ctr",0.325606356688031,0.161106155057935
+"FitnessFirst","$210 - $225",NA,NA,"Weekdays
+- 6am to 10pm
+Weekends/PH
+- 8am to 8pm",NA,NA,"Paragon","Paragon, Singapore","Orchard",1.3037371,103.8355203,1,0,1,0,1,0,1,1,1,1,210,210,210,"Orchard MRT","Orchard Stn/Lucky Plaza",0.363661863097946,0.153225868942354
+"FitnessFirst","$210 - $225",NA,NA,"Weekdays
+- 6am to 10pm
+Weekends/PH
+- 8am to 8pm",NA,NA,"Tampines (CPF Building)","Tampines, Singapore","Tampines",1.3546528,103.9435712,1,0,1,0,1,0,1,1,1,1,210,210,210,"Tampines MRT","Tampines Int",0.228788988319209,0.0684019798254629
+"FitnessFirst","$210 - $225",NA,NA,"Weekdays
+- 6am to 10pm
+Weekends/PH
+- 8am to 8pm",NA,NA,"The Cathay (Picturehouse)"," Cathay, Singapore","Museum",1.2995034,103.8476755,0,1,0,1,1,1,1,1,1,1,210,210,210,"Dhoby Ghaut MRT","Aft Dhoby Ghaut Stn",0.197671443735553,0.14239070595457
+"FitnessFirst","$210 - $225",NA,NA,"Weekdays
+- 6am to 10pm
+Weekends/PH
+- 8am to 8pm",NA,NA,"The Metropolis"," Metropolis, Singapore","Queenstown",1.3059607,103.7912853,1,0,1,0,1,1,1,1,1,1,210,210,210,"Buona Vista MRT","Buona Vista Stn Exit D",0.183676481545295,0.064676461658674
+"FitnessFirst","$210 - $225",NA,NA,"Weekdays
+- 6am to 10pm
+Weekends/PH
+- 8am to 8pm",NA,NA,"Westgate","Westgate, Singapore","Jurong East",1.334194,103.7428671,0,0,1,1,1,0,1,1,1,1,210,210,210,"Jurong East MRT","Jurong East Temp Int",0.134535346344324,0.174907600422428
+"FitnessFirst","$210 - $225",NA,NA,"Weekdays
+- 6am to 10pm
+Weekends/PH
+- 8am to 8pm",NA,NA,"321 Clementi","321 Clementi, Singapore","Clementi",1.3120489,103.7647764,0,1,0,0,1,0,1,1,1,1,210,210,210,"Clementi MRT","NTUC Fairprice",0.328168481386129,0.12432716387022
+"FitnessFirst","$210 - $225",NA,NA,"Weekdays
+- 6am to 10pm
+Weekends/PH
+- 8am to 8pm",NA,NA,"Bugis Junction","Bugis Junction, Singapore","Downtown Core",1.2989008,103.855176,1,1,0,0,1,1,0,1,1,0,210,210,210,"Bugis MRT","Bugis Junction",0.183006599992749,0.0786178907421315

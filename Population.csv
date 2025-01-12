@@ -1,0 +1,331 @@
+PA,Age_Group,Sex,Pop,Time
+Ang Mo Kio,0-19,Females,12000,2024
+Ang Mo Kio,0-19,Males,12120,2024
+Ang Mo Kio,20-54,Females,37020,2024
+Ang Mo Kio,20-54,Males,34060,2024
+Ang Mo Kio,55 and above,Females,34910,2024
+Ang Mo Kio,55 and above,Males,29540,2024
+Bedok,0-19,Females,22640,2024
+Bedok,0-19,Males,23430,2024
+Bedok,20-54,Females,65810,2024
+Bedok,20-54,Males,61590,2024
+Bedok,55 and above,Females,55220,2024
+Bedok,55 and above,Males,48880,2024
+Bishan,0-19,Females,7200,2024
+Bishan,0-19,Males,8110,2024
+Bishan,20-54,Females,21040,2024
+Bishan,20-54,Males,19780,2024
+Bishan,55 and above,Females,17340,2024
+Bishan,55 and above,Males,14620,2024
+Boon Lay,0-19,Females,3150,2024
+Boon Lay,0-19,Males,3270,2024
+Boon Lay,20-54,Females,7557,2024
+Boon Lay,20-54,Males,7558,2024
+Boon Lay,55 and above,Females,3902,2024
+Boon Lay,55 and above,Males,3903,2024
+Bukit Batok,0-19,Females,15780,2024
+Bukit Batok,0-19,Males,16490,2024
+Bukit Batok,20-54,Females,42670,2024
+Bukit Batok,20-54,Males,39770,2024
+Bukit Batok,55 and above,Females,27610,2024
+Bukit Batok,55 and above,Males,26010,2024
+Bukit Merah,0-19,Females,11600,2024
+Bukit Merah,0-19,Males,11820,2024
+Bukit Merah,20-54,Females,35640,2024
+Bukit Merah,20-54,Males,32520,2024
+Bukit Merah,55 and above,Females,30500,2024
+Bukit Merah,55 and above,Males,26610,2024
+Bukit Panjang,0-19,Females,12910,2024
+Bukit Panjang,0-19,Males,13260,2024
+Bukit Panjang,20-54,Females,34820,2024
+Bukit Panjang,20-54,Males,33020,2024
+Bukit Panjang,55 and above,Females,22830,2024
+Bukit Panjang,55 and above,Males,21560,2024
+Bukit Timah,0-19,Females,10740,2024
+Bukit Timah,0-19,Males,8750,2024
+Bukit Timah,20-54,Females,20890,2024
+Bukit Timah,20-54,Males,18040,2024
+Bukit Timah,55 and above,Females,13450,2024
+Bukit Timah,55 and above,Males,11960,2024
+Central Water Catchment,0-19,Females,0,2024
+Central Water Catchment,0-19,Males,0,2024
+Central Water Catchment,20-54,Females,0,2024
+Central Water Catchment,20-54,Males,0,2024
+Central Water Catchment,55 and above,Females,0,2024
+Central Water Catchment,55 and above,Males,0,2024
+Changi,0-19,Females,270,2024
+Changi,0-19,Males,250,2024
+Changi,20-54,Females,460,2024
+Changi,20-54,Males,460,2024
+Changi,55 and above,Females,250,2024
+Changi,55 and above,Males,210,2024
+Changi Bay,0-19,Females,0,2024
+Changi Bay,0-19,Males,0,2024
+Changi Bay,20-54,Females,0,2024
+Changi Bay,20-54,Males,0,2024
+Changi Bay,55 and above,Females,0,2024
+Changi Bay,55 and above,Males,0,2024
+Choa Chu Kang,0-19,Females,17850,2024
+Choa Chu Kang,0-19,Males,18680,2024
+Choa Chu Kang,20-54,Females,49290,2024
+Choa Chu Kang,20-54,Males,47270,2024
+Choa Chu Kang,55 and above,Females,29080,2024
+Choa Chu Kang,55 and above,Males,28450,2024
+Clementi,0-19,Females,9660,2024
+Clementi,0-19,Males,9970,2024
+Clementi,20-54,Females,25610,2024
+Clementi,20-54,Males,23360,2024
+Clementi,55 and above,Females,18690,2024
+Clementi,55 and above,Males,15460,2024
+Downtown Core,0-19,Females,200,2024
+Downtown Core,0-19,Males,160,2024
+Downtown Core,20-54,Females,1530,2024
+Downtown Core,20-54,Males,1370,2024
+Downtown Core,55 and above,Females,350,2024
+Downtown Core,55 and above,Males,420,2024
+Geylang,0-19,Females,9090,2024
+Geylang,0-19,Males,9470,2024
+Geylang,20-54,Females,29180,2024
+Geylang,20-54,Males,27730,2024
+Geylang,55 and above,Females,21670,2024
+Geylang,55 and above,Males,19900,2024
+Hougang,0-19,Females,19270,2024
+Hougang,0-19,Males,19270,2024
+Hougang,20-54,Females,56090,2024
+Hougang,20-54,Males,53240,2024
+Hougang,55 and above,Females,42290,2024
+Hougang,55 and above,Males,38640,2024
+Jurong East,0-19,Females,5370,2024
+Jurong East,0-19,Males,5720,2024
+Jurong East,20-54,Females,17460,2024
+Jurong East,20-54,Males,16870,2024
+Jurong East,55 and above,Females,15090,2024
+Jurong East,55 and above,Males,14150,2024
+Jurong West,0-19,Females,23860,2024
+Jurong West,0-19,Males,24980,2024
+Jurong West,20-54,Females,65180,2024
+Jurong West,20-54,Males,64060,2024
+Jurong West,55 and above,Females,40120,2024
+Jurong West,55 and above,Males,39680,2024
+Kallang,0-19,Females,7410,2024
+Kallang,0-19,Males,7940,2024
+Kallang,20-54,Females,24300,2024
+Kallang,20-54,Males,22960,2024
+Kallang,55 and above,Females,19770,2024
+Kallang,55 and above,Males,18590,2024
+Lim Chu Kang,0-19,Females,15,2024
+Lim Chu Kang,0-19,Males,15,2024
+Lim Chu Kang,20-54,Females,20,2024
+Lim Chu Kang,20-54,Males,20,2024
+Lim Chu Kang,55 and above,Females,20,2024
+Lim Chu Kang,55 and above,Males,20,2024
+Mandai,0-19,Females,200,2024
+Mandai,0-19,Males,180,2024
+Mandai,20-54,Females,540,2024
+Mandai,20-54,Males,500,2024
+Mandai,55 and above,Females,350,2024
+Mandai,55 and above,Males,280,2024
+Marina East,0-19,Females,0,2024
+Marina East,0-19,Males,0,2024
+Marina East,20-54,Females,0,2024
+Marina East,20-54,Males,0,2024
+Marina East,55 and above,Females,0,2024
+Marina East,55 and above,Males,0,2024
+Marina South,0-19,Females,0,2024
+Marina South,0-19,Males,0,2024
+Marina South,20-54,Females,0,2024
+Marina South,20-54,Males,0,2024
+Marina South,55 and above,Females,0,2024
+Marina South,55 and above,Males,0,2024
+Marine Parade,0-19,Females,4440,2024
+Marine Parade,0-19,Males,4430,2024
+Marine Parade,20-54,Females,11460,2024
+Marine Parade,20-54,Males,10060,2024
+Marine Parade,55 and above,Females,8870,2024
+Marine Parade,55 and above,Males,7430,2024
+Museum,0-19,Females,30,2024
+Museum,0-19,Males,20,2024
+Museum,20-54,Females,260,2024
+Museum,20-54,Males,200,2024
+Museum,55 and above,Females,20,2024
+Museum,55 and above,Males,50,2024
+Newton,0-19,Females,1000,2024
+Newton,0-19,Males,1140,2024
+Newton,20-54,Females,2680,2024
+Newton,20-54,Males,2140,2024
+Newton,55 and above,Females,1270,2024
+Newton,55 and above,Males,1240,2024
+North-Eastern Islands,0-19,Females,5,2024
+North-Eastern Islands,0-19,Males,5,2024
+North-Eastern Islands,20-54,Females,10,2024
+North-Eastern Islands,20-54,Males,10,2024
+North-Eastern Islands,55 and above,Females,10,2024
+North-Eastern Islands,55 and above,Males,10,2024
+Novena,0-19,Females,4630,2024
+Novena,0-19,Males,5630,2024
+Novena,20-54,Females,13300,2024
+Novena,20-54,Males,12000,2024
+Novena,55 and above,Females,8730,2024
+Novena,55 and above,Males,7520,2024
+Orchard,0-19,Females,110,2024
+Orchard,0-19,Males,90,2024
+Orchard,20-54,Females,250,2024
+Orchard,20-54,Males,190,2024
+Orchard,55 and above,Females,150,2024
+Orchard,55 and above,Males,150,2024
+Outram,0-19,Females,1150,2024
+Outram,0-19,Males,1060,2024
+Outram,20-54,Females,3670,2024
+Outram,20-54,Males,3510,2024
+Outram,55 and above,Females,3660,2024
+Outram,55 and above,Males,3730,2024
+Pasir Ris,0-19,Females,12760,2024
+Pasir Ris,0-19,Males,13490,2024
+Pasir Ris,20-54,Females,36540,2024
+Pasir Ris,20-54,Males,35200,2024
+Pasir Ris,55 and above,Females,24540,2024
+Pasir Ris,55 and above,Males,23020,2024
+Paya Lebar,0-19,Females,0,2024
+Paya Lebar,0-19,Males,0,2024
+Paya Lebar,20-54,Females,10,2024
+Paya Lebar,20-54,Males,10,2024
+Paya Lebar,55 and above,Females,10,2024
+Paya Lebar,55 and above,Males,10,2024
+Pioneer,0-19,Females,5,2024
+Pioneer,0-19,Males,5,2024
+Pioneer,20-54,Females,15,2024
+Pioneer,20-54,Males,15,2024
+Pioneer,55 and above,Females,20,2024
+Pioneer,55 and above,Males,20,2024
+Punggol,0-19,Females,26160,2024
+Punggol,0-19,Males,27630,2024
+Punggol,20-54,Females,56250,2024
+Punggol,20-54,Males,52320,2024
+Punggol,55 and above,Females,19360,2024
+Punggol,55 and above,Males,18130,2024
+Queenstown,0-19,Females,8320,2024
+Queenstown,0-19,Males,8690,2024
+Queenstown,20-54,Females,25790,2024
+Queenstown,20-54,Males,23320,2024
+Queenstown,55 and above,Females,20290,2024
+Queenstown,55 and above,Males,15910,2024
+River Valley,0-19,Females,1360,2024
+River Valley,0-19,Males,1110,2024
+River Valley,20-54,Females,3480,2024
+River Valley,20-54,Males,2790,2024
+River Valley,55 and above,Females,1570,2024
+River Valley,55 and above,Males,1440,2024
+Rochor,0-19,Females,880,2024
+Rochor,0-19,Males,760,2024
+Rochor,20-54,Females,3060,2024
+Rochor,20-54,Males,3070,2024
+Rochor,55 and above,Females,2360,2024
+Rochor,55 and above,Males,2350,2024
+Seletar,0-19,Females,20,2024
+Seletar,0-19,Males,40,2024
+Seletar,20-54,Females,80,2024
+Seletar,20-54,Males,60,2024
+Seletar,55 and above,Females,30,2024
+Seletar,55 and above,Males,30,2024
+Sembawang,0-19,Females,12380,2024
+Sembawang,0-19,Males,12940,2024
+Sembawang,20-54,Females,30420,2024
+Sembawang,20-54,Males,28640,2024
+Sembawang,55 and above,Females,13180,2024
+Sembawang,55 and above,Males,12870,2024
+Sengkang,0-19,Females,29920,2024
+Sengkang,0-19,Males,31600,2024
+Sengkang,20-54,Females,72120,2024
+Sengkang,20-54,Males,67270,2024
+Sengkang,55 and above,Females,33330,2024
+Sengkang,55 and above,Males,31240,2024
+Serangoon,0-19,Females,9130,2024
+Serangoon,0-19,Males,9790,2024
+Serangoon,20-54,Females,28310,2024
+Serangoon,20-54,Males,26410,2024
+Serangoon,55 and above,Females,23900,2024
+Serangoon,55 and above,Males,20390,2024
+Simpang,0-19,Females,0,2024
+Simpang,0-19,Males,0,2024
+Simpang,20-54,Females,0,2024
+Simpang,20-54,Males,0,2024
+Simpang,55 and above,Females,0,2024
+Simpang,55 and above,Males,0,2024
+Singapore River,0-19,Females,520,2024
+Singapore River,0-19,Males,470,2024
+Singapore River,20-54,Females,1340,2024
+Singapore River,20-54,Males,1060,2024
+Singapore River,55 and above,Females,390,2024
+Singapore River,55 and above,Males,410,2024
+Southern Islands,0-19,Females,340,2024
+Southern Islands,0-19,Males,240,2024
+Southern Islands,20-54,Females,670,2024
+Southern Islands,20-54,Males,560,2024
+Southern Islands,55 and above,Females,300,2024
+Southern Islands,55 and above,Males,350,2024
+Straits View,0-19,Females,0,2024
+Straits View,0-19,Males,0,2024
+Straits View,20-54,Females,0,2024
+Straits View,20-54,Males,0,2024
+Straits View,55 and above,Females,0,2024
+Straits View,55 and above,Males,0,2024
+Sungei Kadut,0-19,Females,50,2024
+Sungei Kadut,0-19,Males,50,2024
+Sungei Kadut,20-54,Females,170,2024
+Sungei Kadut,20-54,Males,150,2024
+Sungei Kadut,55 and above,Females,150,2024
+Sungei Kadut,55 and above,Males,120,2024
+Tampines,0-19,Females,26150,2024
+Tampines,0-19,Males,28010,2024
+Tampines,20-54,Females,70940,2024
+Tampines,20-54,Males,67820,2024
+Tampines,55 and above,Females,48820,2024
+Tampines,55 and above,Males,42980,2024
+Tanglin,0-19,Females,2940,2024
+Tanglin,0-19,Males,2570,2024
+Tanglin,20-54,Females,6470,2024
+Tanglin,20-54,Males,5250,2024
+Tanglin,55 and above,Females,3550,2024
+Tanglin,55 and above,Males,3250,2024
+Tengah,0-19,Females,870,2024
+Tengah,0-19,Males,820,2024
+Tengah,20-54,Females,2580,2024
+Tengah,20-54,Males,2550,2024
+Tengah,55 and above,Females,640,2024
+Tengah,55 and above,Males,620,2024
+Toa Payoh,0-19,Females,11650,2024
+Toa Payoh,0-19,Males,12630,2024
+Toa Payoh,20-54,Females,34600,2024
+Toa Payoh,20-54,Males,31720,2024
+Toa Payoh,55 and above,Females,26960,2024
+Toa Payoh,55 and above,Males,22500,2024
+Tuas,0-19,Females,5,2024
+Tuas,0-19,Males,5,2024
+Tuas,20-54,Females,15,2024
+Tuas,20-54,Males,15,2024
+Tuas,55 and above,Females,15,2024
+Tuas,55 and above,Males,15,2024
+Western Islands,0-19,Females,0,2024
+Western Islands,0-19,Males,0,2024
+Western Islands,20-54,Females,5,2024
+Western Islands,20-54,Males,5,2024
+Western Islands,55 and above,Females,0,2024
+Western Islands,55 and above,Males,0,2024
+Western Water Catchment,0-19,Females,70,2024
+Western Water Catchment,0-19,Males,50,2024
+Western Water Catchment,20-54,Females,230,2024
+Western Water Catchment,20-54,Males,150,2024
+Western Water Catchment,55 and above,Females,50,2024
+Western Water Catchment,55 and above,Males,60,2024
+Woodlands,0-19,Females,24310,2024
+Woodlands,0-19,Males,25760,2024
+Woodlands,20-54,Females,66860,2024
+Woodlands,20-54,Males,65490,2024
+Woodlands,55 and above,Females,36560,2024
+Woodlands,55 and above,Males,36480,2024
+Yishun,0-19,Females,21610,2024
+Yishun,0-19,Males,23050,2024
+Yishun,20-54,Females,58290,2024
+Yishun,20-54,Males,55700,2024
+Yishun,55 and above,Females,37290,2024
+Yishun,55 and above,Males,33900,2024

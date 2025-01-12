@@ -1,0 +1,173 @@
+---
+title: "code check"
+output: html_document
+date: "2024-11-07"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+
+```{r}
+# Load and clean the datasets
+classpass <- read.csv('./classpass_dataset.csv', stringsAsFactors = FALSE)
+othergyms <- read.csv('./gyms_dataset.csv', stringsAsFactors = FALSE)
+simulation_result<-read.csv("./Simulation_result_by_pa.csv")
+district_data<-st_read("./district_and_planning_area.geojson")
+sports_data <- read.csv("Project_Sports_Simulation_Data.csv")
+```
+
+
+```{r}
+entrepreneurs_data <- merge(district_data, simulation_result, by.x = "planning_area", by.y = "PA")
+entrepreneurs_data
+```
+
+```{r}
+# Standardize column names in both datasets
+names(classpass) <- tolower(names(classpass))
+names(othergyms) <- tolower(names(othergyms))
+names(classpass) <- gsub("\\.", "_", names(classpass))  # Replace dots with underscores
+names(othergyms) <- gsub("\\.", "_", names(othergyms))  # Replace dots with underscores
+
+head(classpass)
+head(othergyms)
+
+```
+
+
+```{r}
+# Correct column names in 'othergyms' to match 'classpass'
+if ("gym_name" %in% names(othergyms)) {
+  names(othergyms)[names(othergyms) == "gym_name"] <- "gymname"
+}
+```
+
+```{r}
+# Determine common activity columns in both datasets
+activity_columns <- c("barre", "boxing", "cycling", "dance", "gym_time", 
+                      "martial_arts", "pilates", "strength_training", 
+                      "stretching", "yoga")
+
+# Define icons for each activity
+activity_icons <- list(
+  "barre" = "dumbbell",
+  "boxing" = "hand-rock",
+  "cycling" = "bicycle",
+  "dance" = "music",
+  "gym_time" = "dumbbell",
+  "martial_arts" = "hand-rock",
+  "pilates" = "spa",
+  "strength_training" = "weight-hanging",
+  "stretching" = "running",
+  "yoga" = "spa"
+)
+
+# Define major gym brands in Othergyms
+major_brands <- c("FitnessFirst", "ActiveSG Gym", "Anytime Fitness")
+brand_colors <- c("FitnessFirst" = "purple", "ActiveSG Gym" = "orange", 
+                  "Anytime Fitness" = "cyan")
+
+# Assign colors based on major brands
+othergyms <- othergyms %>%
+  mutate(
+    source = "Othergyms",
+    brand = ifelse(gymname %in% major_brands, gymname, "Other"),
+    color = ifelse(brand %in% names(brand_colors), brand_colors[brand], "red")
+  )
+
+# Ensure selected columns exist in both datasets
+existing_columns <- intersect(activity_columns, names(classpass))
+```
+
+
+```{r}
+# Combine datasets into one unified dataset
+combined_gyms <- bind_rows(
+  classpass %>%
+    select(gymname, region, all_of(existing_columns),  lat, long,nearest_mrt_station) %>%
+    mutate(source = "Classpass"),
+  othergyms %>%
+    select(gymname, region, all_of(existing_columns), lat, long, student_price, adult_price, senior_price, source, brand, color,nearest_mrt_station) %>%
+    mutate(source = "Othergyms")
+)
+```
+
+```{r}
+# List of all activities for filtering
+all_activities <- gsub("_", " ", existing_columns)
+all_activities <- tools::toTitleCase(all_activities)
+
+# Get unique regions for the region filter
+all_regions <- unique(combined_gyms$region)
+
+```
+
+
+```{r}
+combined_gyms
+```
+
+```{r}
+total_data <- sports_data %>%
+  filter(`Age.Group` == "Total")
+
+# Reshape the data to have a "Sport" and "Participants" column
+region_sport_data <- total_data %>%
+  pivot_longer(cols = Yoga:Dance,  # Adjusted to cover all sport columns
+               names_to = "Sport", 
+               values_to = "Participants") %>%
+  group_by(Neighbourhood, Sport) %>%
+  summarise(Total_Participants = sum(Participants, na.rm = TRUE))
+
+# Plot a stacked bar graph for each neighborhood
+ggplot(region_sport_data, aes(x = Neighbourhood, y = Total_Participants, fill = Sport)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Total Participants by Sport in Each Neighborhood", x = "Neighborhood", y = "Number of Participants") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+
+```{r}
+average_price_by_district <- combined_gyms %>%
+  group_by(region) %>%
+  summarise(Average_Price = mean(adult_price, na.rm = TRUE))
+
+# Plot the average price by district
+ggplot(average_price_by_district, aes(x = region, y = Average_Price)) +
+  geom_bar(stat = "identity", fill = "lightblue") +
+  labs(title = "Average Gym Price by District", x = "District", y = "Average Adult Price") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+
+```{r}
+
+```

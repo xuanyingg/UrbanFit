@@ -1,0 +1,697 @@
+---
+title: "Webscrapping"
+output: html_document
+date: "2024-10-11"
+---
+## Webscrapping $\\$
+#### We will be webscrapping 2 types of data - Classpass, and Other gyms data to give a wide range of gym data in the markets. $\\$
+#### Other gyms data: For locations that are identified as "islandwide", we scrap the locations provided by the gym from the website. 
+
+## Classpass Data $\\$
+```{r}
+library(rvest)
+library(dplyr)
+
+# Base URL
+base_url <- "https://classpass.com/search/singapore/fitness?page="
+
+# Initialize an empty list to store data
+all_data <- list()
+
+# Loop through the first 5 pages (adjust as needed)
+for (page_num in 1:5) {
+  # Construct the URL for each page
+  url <- paste0(base_url, page_num)
+  
+  # Read the HTML content of the page
+  page <- read_html(url)
+  
+  # Extract gym names
+  gym_names <- page %>%
+    html_nodes(".jtaXExxHn2JEtET6kaKm") %>% # Update this with the actual class for gym names
+    html_text(trim = TRUE)
+  
+  # Extract addresses
+  addresses <- page %>%
+    html_nodes(".QeIOpA3wuNrRUN5a7R89") %>% # Update this with the actual class for addresses
+    html_text(trim = TRUE)
+  
+  # Extract activities
+  activities <- page %>%
+    html_nodes(".hqhUxYCIcaKkl9Ush0cZ") %>% # Update this with the actual class for activities
+    html_text(trim = TRUE)
+  
+  # Extract number of reviews or ratings
+  ratings <- page %>%
+    html_nodes(".ratings__rating") %>% # Update with the class for reviews if different
+    html_text(trim = TRUE)
+  
+  # Combine the data into a data frame
+  page_data <- data.frame(
+    GymName = gym_names,
+    Address = addresses,
+    Activities = activities,
+    Rating = ratings,
+    stringsAsFactors = FALSE
+  )
+  
+  # Append the data from this page to the overall list
+  all_data[[page_num]] <- page_data
+}
+
+# Combine all the data into one data frame
+classpass <- bind_rows(all_data)
+classpass
+```
+
+## Remove any duplicated rows
+
+```{r}
+# Remove duplicate rows based on all columns
+classpass <- classpass %>% distinct()
+classpass
+```
+
+
+## Function to clean the location column for geocoding 
+#### Function can be reused to clean to find the geocoding using osm.
+
+
+```{r}
+library(dplyr)
+library(stringr)
+library(tidygeocoder)
+library(rlang)
+
+
+clean_and_process_address <- function(data, address_column, gym_column) {
+  data <- data %>%
+    rowwise() %>%
+    mutate(
+      # Manual corrections (retain these entries as is)
+      !!sym(address_column) := case_when(
+        str_detect(!!sym(address_column), regex("lor liput", ignore_case = TRUE)) ~ "3 Lorong Liput, Singapore",
+        str_detect(!!sym(address_column), regex("holland vlg wy", ignore_case = TRUE)) ~ "7 Holland Village Way, Singapore",
+        str_detect(!!sym(address_column), regex("marine parade", ignore_case = TRUE)) ~ "1 Marine Parade, Singapore 449408",
+        str_detect(!!sym(address_column), regex("ci yuan", ignore_case = TRUE)) ~ "Hougang Ave 7, Singapore",
+        str_detect(!!sym(address_column), regex("delta sports centre|delta", ignore_case = TRUE)) ~ "Tiong Bahru, Singapore",
+        str_detect(!!sym(address_column), regex("prestige point", ignore_case = TRUE)) ~ "Upper Paya Lebar, Singapore",
+        str_detect(!!sym(address_column), regex("tampines sun plaza park", ignore_case = TRUE)) ~ "Tampines, Singapore",
+        str_detect(!!sym(address_column), regex("skh campus", ignore_case = TRUE)) ~ "Seng Kang, Singapore",
+        str_detect(!!sym(address_column), regex("woods", ignore_case = TRUE)) ~ "Woodlands, Singapore",
+        str_detect(!!sym(address_column), regex("downtown east", ignore_case = TRUE)) ~ "Downtown, Singapore",
+        str_detect(!!sym(address_column), regex("marymount halycon 2", ignore_case = TRUE)) ~ "Marymount, Singapore",
+        TRUE ~ !!sym(address_column)
+      ),
+      
+      
+      # Remove gym names dynamically (partial matching throughout address)
+      Cleaned_Address = str_remove_all(
+        !!sym(address_column), 
+        regex(paste0("\\b", tolower(!!sym(gym_column)), "\\b"), ignore_case = TRUE)
+      ),
+      
+      # Trim leading/trailing spaces and remove leading commas (AFTER gym name removal)
+      Cleaned_Address = str_trim(str_remove(Cleaned_Address, "^,"), side = "both"),
+      
+      
+      # Remove unit numbers like "#03-08", "02-01"
+      Cleaned_Address = str_remove_all(Cleaned_Address, "(#|\\b)[A-Za-z0-9]{1,2}[-/][A-Za-z0-9]{1,2}"),
+      
+      # Remove unwanted information (including commas or text after slashes)
+      Cleaned_Address = str_remove(Cleaned_Address, "\\s*[-–@\\(,/].*$"),
+      
+      # Remove unwanted terms and characters
+      Cleaned_Address = str_replace_all(
+        Cleaned_Address, 
+        paste(c("Community Club", "Community Centre", "Square", "Central", 
+                "Complex", "Building", "Parkway Centre", "Carpark.*", 
+                "Campus", "City", "The", "CSC", "Gym Pod", "MRT", "ActiveSG"), 
+              collapse = "|"
+        ), ""
+      ),
+      
+      # Ensure 'Singapore' is appended if missing
+      Cleaned_Address = ifelse(
+        !str_detect(tolower(Cleaned_Address), "singapore"), 
+        paste0(Cleaned_Address, ", Singapore"), 
+        Cleaned_Address
+      )
+    ) %>%
+    ungroup() %>%
+    filter(!is.na(Cleaned_Address))  # Remove NA addresses
+
+  # Geocode the cleaned addresses
+  geocoded_data <- data %>%
+    geocode(Cleaned_Address, method = "osm")
+
+  # Handle rows with failed geocoding
+  failed_geocodes <- geocoded_data %>%
+    filter(is.na(lat) | is.na(long))
+
+  if (nrow(failed_geocodes) > 0) {
+    message("The following addresses failed geocoding:")
+    print(failed_geocodes)
+  } else {
+    message("All addresses geocoded successfully!")
+  }
+
+  return(geocoded_data)
+}
+
+
+```
+
+
+## Apply function to find the geocoded location for Classpass data
+```{r}
+# Clean the location column for classpass using the function 'clean_and_process_address'
+classpass_geocoded <- clean_and_process_address(classpass, "Address", "GymName")
+
+# View the final geocoded dataset
+print(classpass_geocoded)
+
+```
+
+```{r}
+removed_rows <- anti_join(classpass, classpass_geocoded, by = "GymName")
+removed_rows
+```
+
+## Find the regions of the locations it belongs to
+```{r}
+library(sf)
+library(dplyr)
+library(ggplot2)
+
+# Load the shapefile or GeoJSON that contains Singapore regions (Replace with actual file path)
+sg_regions <- st_read("2-planning-area.geojson")
+
+# Before converting to an sf object, store the lat and long columns separately
+lat_long_df <- classpass_geocoded %>%
+  select(lat, long)
+
+# Convert the classpass_geocoded dataframe into an sf object with CRS EPSG:4326 (standard for lat/long)
+classpass_locations <- st_as_sf(classpass_geocoded, coords = c("long", "lat"), crs = 4326)
+
+# Ensure the shapefile/GeoJSON is in the same CRS (transform if necessary)
+sg_regions <- st_transform(sg_regions, crs = 4326)
+
+# Perform a spatial join to find the region each gym belongs to
+locations_with_regions <- st_join(classpass_locations, sg_regions, join = st_within)
+
+# Convert the sf object back to a regular dataframe by dropping the geometry
+classpass_regions <- st_drop_geometry(locations_with_regions)
+
+# Re-add the original lat and long columns (from lat_long_df)
+classpass_regions <- cbind(classpass_regions, lat_long_df)
+
+# Rename the column containing the region information to "Region"
+# Assuming the column with region information is called "name"
+classpass_regions <- classpass_regions %>%
+  rename(Region = name)  # Replace "name" with the actual region column name if different
+
+# View the resulting dataframe with lat, long, and region columns
+print(classpass_regions)
+
+```
+
+
+## Graph to show the mapping
+```{r}
+library(leaflet)
+library(dplyr)
+
+# Create the leaflet map using Longitude and Latitude columns from classpass_cleaned
+leaflet(data = classpass_geocoded) %>%
+  addTiles() %>%
+  addCircleMarkers(
+    ~long, ~lat,
+    radius = 5,
+    color = "red",
+    stroke = FALSE,
+    fillOpacity = 0.8,
+    popup = ~paste0(
+      "<strong>Gym Name:</strong> ", GymName, "<br>",
+      "<strong>Address:</strong> ", Address, "<br>",
+      "<strong>Activities:</strong> ", Activities
+    ),
+    label = ~paste0("Gym: ", GymName), # This is for the hover effect
+    labelOptions = labelOptions(
+      style = list("font-weight" = "bold", "color" = "black"),
+      textsize = "13px",
+      direction = "auto",
+      opacity = 0.7,
+      offset = c(10, -10)
+    )
+  ) %>%
+  addLegend(
+    position = "bottomright",
+    title = "ClassPass Gyms",
+    colors = "red",
+    labels = "Gyms",
+    opacity = 0.8
+  )
+
+```
+
+
+# ## Clean the Activities column to split into binary columns
+```{r}
+# Function to clean up the activities and split them into unique values
+clean_activities <- function(activity) {
+  # Remove the ellipsis and the comma before it, then trim whitespace
+  activity <- str_replace_all(activity, ",?\\s*…", "")
+  activity <- str_trim(activity)
+  # Split the activities into a vector
+  activities_split <- str_split(activity, ",\\s*")[[1]]
+  return(activities_split)
+}
+
+classpass_cleaned <- classpass_regions %>%
+  rowwise() %>%
+  mutate(Activities_List = list(clean_activities(Activities))) %>%
+  unnest_longer(Activities_List) %>%
+  mutate(Present = 1) %>%
+  group_by(Address, Activities) %>%  # Group by original identifiers
+  spread(key = Activities_List, value = Present, fill = 0) %>%
+  ungroup()
+
+print(classpass_cleaned)
+```
+
+
+## Save Classpass file as csv
+```{R}
+# Save the final data to a CSV file
+write.csv(classpass_cleaned, "Classpass.csv", row.names = FALSE)
+```
+
+
+
+
+## Other gyms data 
+```{r}
+
+# Load the necessary libraries
+library(rvest)
+library(dplyr)
+
+# Define the URL of the website
+url <- "https://blog.seedly.sg/best-gym-membership-singapore/"
+
+# Read the HTML content of the page
+page <- read_html(url)
+
+# Extract data based on the provided CSS selectors
+gym_names <- page %>%
+  html_nodes(".large-tablepress .column-1") %>%
+  html_text(trim = TRUE)
+
+regular_adultfees <- page %>%
+  html_nodes(".large-tablepress .column-2") %>%
+  html_text(trim = TRUE)
+
+offpeak_adultfees <- page %>%
+  html_nodes(".large-tablepress .column-3") %>%
+  html_text(trim = TRUE)
+
+per_entry <- page %>%
+  html_nodes(".large-tablepress .column-4") %>%
+  html_text(trim = TRUE)
+
+opening_hours <- page %>%
+  html_nodes(".large-tablepress .column-5") %>%
+  html_text(trim = TRUE)
+
+offpeak_hours <- page %>%
+  html_nodes(".large-tablepress .column-6") %>%
+  html_text(trim = TRUE)
+
+misc_fees <- page %>%
+  html_nodes(".column-7") %>%
+  html_text(trim = TRUE)
+
+locations <- page %>%
+  html_nodes(".column-8") %>%
+  html_text(trim = TRUE)
+
+# Combine the data into a structured data frame
+gyms_data <- data.frame(
+  Gym_Name = gym_names,
+  Regular_Adult_Fees = regular_adultfees,
+  Offpeak_Adult_Fees = offpeak_adultfees,
+  Per_Entry = per_entry,
+  Opening_Hours = opening_hours,
+  Offpeak_Hours = offpeak_hours,
+  Misc_Fees = misc_fees,
+  Locations = locations,
+  stringsAsFactors = FALSE
+)
+
+# Remove the first row
+gyms_data <- gyms_data[-1, ]
+
+# Display the cleaned and structured data
+print(gyms_data)
+```
+
+## Clean the other gyms data
+```{r}
+# Function to split the "Locations" column into different rows
+# Load required libraries
+library(dplyr)
+library(tidyr)
+
+# Function to dynamically split columns based on line breaks
+expand_column <- function(data, column_name) {
+  expanded_list <- lapply(data[[column_name]], function(x) unlist(strsplit(x, "\n")))
+  
+  # Expand all columns dynamically based on the length of the expanded column
+  expanded_data <- data[rep(seq_len(nrow(data)), sapply(expanded_list, length)), ]
+  expanded_data[[column_name]] <- unlist(expanded_list)
+  
+  # Remove empty entries (if any)
+  expanded_data <- expanded_data[expanded_data[[column_name]] != "", ]
+  
+  return(expanded_data)
+}
+
+# Apply the function to expand the "Locations" column
+othergyms <- expand_column(gyms_data, "Locations")
+
+# Display the cleaned and expanded data
+print(othergyms)
+
+```
+
+
+## Identify all islandwide locations and find all the islandwide locations
+```{r}
+# Identify rows where Locations is "Islandwide"
+islandwide_gyms <- othergyms %>%
+  filter(Locations == "Islandwide")
+
+# View the gyms with "Islandwide" locations
+print(islandwide_gyms)
+
+```
+
+## Find the islandwide locations for ActiveSG
+```{r}
+# Load the library
+library(rvest)
+
+# Define the URL of the Gym Pod locations page
+url <- "https://singaporeverified.com/lifestyle/activesg-gyms-in-singapore/"
+
+# Read the HTML content of the page
+webpage <- read_html(url)
+
+# Extract gym locations from <strong> tags
+activesg <- webpage %>%
+  html_elements("tr:nth-child(1) strong") %>%
+  html_text(trim = TRUE)
+
+# Remove "ActiveSG Gym" and any extra spaces
+activesg_locations <- gsub("ActiveSG Gym", "", activesg) %>%
+  trimws()  # Trim leading and trailing whitespace
+
+# Print the scraped locations to verify
+head(activesg_locations)
+```
+
+
+## Find the islandwide locations for Gym Pods
+```{r}
+# Install necessary packages if not installed
+# install.packages("rvest")
+
+# Load the library
+library(rvest)
+
+# Define the URL of the Gym Pod locations page
+url <- "https://shopsinsg.com/the-gym-pod.html"
+
+# Read the HTML content of the page
+webpage <- read_html(url)
+
+# Extract gym locations from <strong> tags
+gympods_locations <- webpage %>%
+  html_elements("strong") %>%
+  html_text(trim = TRUE)
+
+# Print the scraped locations to verify
+head(gympods_locations)
+
+```
+
+
+## Find the islandwide locations for Anytime Fitness
+```{r}
+# Define the URL of the Anytime Fitness locations page
+url <- "https://shopsinsg.com/anytime-fitness-gyms-in-singapore.html"
+
+# Read the HTML content of the page
+webpage <- read_html(url)
+
+# Extract gym locations from <strong> tags
+anytimefitness_locations <- webpage %>%
+  html_elements("strong") %>%
+  html_text(trim = TRUE)
+
+# Print the scraped locations to verify
+head(anytimefitness_locations)
+
+```
+
+
+## Combine all 3 islandwide locations into the dataframe "othergyms"
+
+```{r}
+othergyms <- othergyms %>%
+  mutate(Locations = case_when(
+    Gym_Name == "Anytime Fitness" ~ paste(anytimefitness_locations, collapse = "\n"),
+    Gym_Name == "The Gym Pod" ~ paste(gympods_locations, collapse = "\n"),
+    Gym_Name == "ActiveSG Gym" ~ paste(activesg_locations, collapse = "\n"),
+    TRUE ~ Locations  # Keep other values unchanged
+  ))
+
+
+# Reuse the above expanded column function to split the multiple locations to diff rows
+othergyms <- expand_column(othergyms, "Locations")
+
+# View the updated dataframe
+print(othergyms)
+```
+
+
+## Remove any duplicated rows
+
+```{r}
+# Remove duplicate rows based on all columns
+othergyms <- othergyms %>% distinct()
+othergyms
+```
+
+
+
+
+```{r}
+# Clean the location column for classpass using the function 'clean_and_process_address'
+othergyms_geocoded <- clean_and_process_address(othergyms, "Locations", "Gym_Name")
+
+# View the final geocoded dataset
+print(othergyms_geocoded)
+
+```
+
+```{r}
+removed_rows <- anti_join(othergyms, othergyms_geocoded, by = "Gym_Name")
+removed_rows
+```
+
+## Add in the regions to the lat and long
+```{r}
+library(sf)
+library(dplyr)
+library(ggplot2)
+
+# Load the shapefile or GeoJSON that contains Singapore regions (Replace with actual file path)
+sg_regions <- st_read("2-planning-area.geojson")
+
+# Before converting to an sf object, store the lat and long columns separately
+lat_long_df <- othergyms_geocoded %>%
+  select(lat, long)
+
+# Convert the othergyms_geocoded dataframe into an sf object with CRS EPSG:4326 (standard for lat/long)
+gym_locations <- st_as_sf(othergyms_geocoded, coords = c("long", "lat"), crs = 4326)
+
+# Ensure the shapefile/GeoJSON is in the same CRS (transform if necessary)
+sg_regions <- st_transform(sg_regions, crs = 4326)
+
+# Perform a spatial join to find the region each gym belongs to
+locations_with_regions <- st_join(gym_locations, sg_regions, join = st_within)
+
+# Convert the sf object back to a regular dataframe by dropping the geometry
+othergyms_regions <- st_drop_geometry(locations_with_regions)
+
+# Re-add the original lat and long columns
+othergyms_regions <- cbind(othergyms_regions, lat_long_df)
+
+# Rename the column containing the region information to "Region"
+# Assuming the column with region information is called "name" (replace it with the actual name if different)
+othergyms_regions <- othergyms_regions %>%
+  rename(Region = name)
+
+# View the resulting dataframe with lat, long, and region columns
+print(othergyms_regions)
+```
+
+
+```{r}
+library(leaflet)
+library(dplyr)
+
+# Create the leaflet map using Longitude and Latitude columns from othergyms_cleaned
+leaflet(data = othergyms_geocoded) %>%
+  addTiles() %>%
+  addCircleMarkers(
+    ~long, ~lat,
+    radius = 5,
+    color = "red",
+    stroke = FALSE,
+    fillOpacity = 0.8,
+    popup = ~paste0(
+      "<strong>Gym Name:</strong> ", Gym_Name, "<br>",
+      "<strong>Address:</strong> ", Locations, "<br>"
+    ),
+    label = ~paste0("Gym: ", Gym_Name), # This is for the hover effect
+    labelOptions = labelOptions(
+      style = list("font-weight" = "bold", "color" = "black"),
+      textsize = "13px",
+      direction = "auto",
+      opacity = 0.7,
+      offset = c(10, -10)
+    )
+  ) %>%
+  addLegend(
+    position = "bottomright",
+    title = "Other Gyms",
+    colors = "red",
+    labels = "Gyms",
+    opacity = 0.8
+  )
+```
+
+
+## Save Other gym data as csv
+```{r}
+write.csv(othergyms_regions, "Othergyms.csv", row.names = FALSE)
+
+```
+
+
+## Fitness First data
+
+```{r}
+
+library(rvest)
+library(dplyr)
+library(stringr)
+
+# URL to scrape
+url <- "https://www.thebestsingapore.com/biz-review/fitness-first-review/"
+
+# Fetch the HTML content of the page
+page <- read_html(url)
+
+# Extract the text from elements with the specific selector
+fitnessfirst <- page %>%
+  html_elements("ul:nth-child(7) li") %>%  # Select the relevant list items
+  html_text(trim = TRUE)  # Extract the text content
+
+# Split each location at the comma and flatten the list into a single vector
+fitnessfirst_locations <- fitnessfirst %>%
+  str_split(",\\s*") %>%  # Split by comma and optional space
+  unlist()  # Flatten the list to a vector
+
+# Add "321 Clementi" to the vector
+fitnessfirst_locations <- c(fitnessfirst_locations, "321 Clementi", "Bugis Junction")
+
+# Create a dataframe with the specified columns
+fitnessfirst <- data.frame(
+  Gym_Name = "FitnessFirst",  # Set all values to "FitnessFirst"
+  Locations = fitnessfirst_locations,  # Add the locations vector
+  stringsAsFactors = FALSE
+)
+
+
+# Print the final list of locations
+print(fitnessfirst)
+```
+
+## Find the lat and long for Fitness First data
+```{r}
+# Clean the location column for classpass using the function 'clean_and_process_address'
+fitnessfirst<- clean_and_process_address(fitnessfirst, "Locations", "Gym_Name")
+
+# View the final geocoded dataset
+print(fitnessfirst)
+```
+
+## Find the regions it belongs to
+```{r}
+library(sf)
+library(dplyr)
+library(ggplot2)
+
+# Load the shapefile or GeoJSON that contains Singapore regions (Replace with actual file path)
+sg_regions <- st_read("2-planning-area.geojson")
+
+# Before converting to an sf object, store the lat and long columns separately
+lat_long_df <- fitnessfirst %>%
+  select(lat, long)
+
+# Convert the classpass_geocoded dataframe into an sf object with CRS EPSG:4326 (standard for lat/long)
+fitnessfirst <- st_as_sf(fitnessfirst, coords = c("long", "lat"), crs = 4326)
+
+# Ensure the shapefile/GeoJSON is in the same CRS (transform if necessary)
+sg_regions <- st_transform(sg_regions, crs = 4326)
+
+# Perform a spatial join to find the region each gym belongs to
+locations_with_regions <- st_join(fitnessfirst, sg_regions, join = st_within)
+
+# Convert the sf object back to a regular dataframe by dropping the geometry
+fitnessfirst <- st_drop_geometry(locations_with_regions)
+
+# Re-add the original lat and long columns (from lat_long_df)
+fitnessfirst <- cbind(fitnessfirst, lat_long_df)
+
+# Rename the column containing the region information to "Region"
+# Assuming the column with region information is called "name"
+fitnessfirst <- fitnessfirst %>%
+  rename(Region = name)  # Replace "name" with the actual region column name if different
+
+# View the resulting dataframe with lat, long, and region columns
+print(fitnessfirst)
+
+
+```
+
+## Combine Fitnessfirst to the othergyms df
+```{r}
+# Add rows from fitnessfirst_df to othergyms_regions
+othergyms_updated <- bind_rows(othergyms_regions, fitnessfirst)
+
+# View the updated dataframe
+print(othergyms_updated)
+```
+
+
+## Save Other gym data as csv
+```{r}
+write.csv(othergyms_updated, "Othergyms.csv", row.names = FALSE)
+```
+
+
